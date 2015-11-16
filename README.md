@@ -1,3 +1,5 @@
+<img style="width:100%;" src="/github-banner.png">
+
 # Laboratoire GLO-2003
 
 Introduction aux processus de génie logiciel
