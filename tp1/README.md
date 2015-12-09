@@ -10,22 +10,36 @@
 
 Une base de code a été mise en place, vous devez la mettre dans votre dépot, et y effectuer des amélioration avec quelques contraintes. Vous pouvez partir de zéro avec le language de votre choix (après l'approbation du chargé de laboratoire).
 
-Un nouveau développeur join votre équipe et devrait être en mesure d'entrer dans le projet le plus rapidement possible. Un fichier README (comme celui-ci) à la racine du projet qui explique les base. Une autre bonne pratique est d'avoir un fichier CONTRIBUTING à la racine.
+### Readme
+Un nouveau développeur join votre équipe et devrait être en mesure d'entrer dans le projet le plus rapidement possible. Un fichier README (comme celui-ci) à la racine du projet qui explique les bases. Une autre bonne pratique est d'avoir un fichier CONTRIBUTING à la racine.
 - Documentez votre processus avec git  
   - Quoi mettre dans un message de "commit"
   - Comment faite vous vos fusions (merges)
 
-Expliquez pourquoi on utilise un système de gestion du code source et des outils de collaboration.
+### Questions sur git
 
+Dans un autre document (une pratique courante est d'avoir un dossier doc, un wiki est aussi acceptable):
+
+- Expliquez pourquoi on utilise un système de gestion du code source et des outils de collaboration.
 - Documentez votre pourquoi git
   - La différence avec les autres systèmes (distribué / client-serveur)
   - La distinction avec les entrepots distribués et localisés
   - Les avantages et inconvénients par rapport aux autres systèmes (cvs,perforce,svn,hg)
 
+### Tâches supplémentaires
+
+- gitignore
 
 ## Exercice
 
 - [Learn Git Branching](https://pcottle.github.io/learnGitBranching/) - Tutoriel en ligne
+
+## Remise
+
+- Répertoire git dans github avec `tag` `remise-1` positionné sur le bon commit, le tag doit avoir été créé avant la date limite
+  - Fichier README avec instructions (la section "contributing" peut être dans le même fichier ou externe mais ça doit être spécifié dans le README)
+  - Autre document ou Wiki avec les questions sur `git`
+  - Le projet doit être minimalement fonctionnel
 
 ## Références
 
@@ -43,11 +57,12 @@ Expliquez pourquoi on utilise un système de gestion du code source et des outil
 - [Learn Git Branching](https://pcottle.github.io/learnGitBranching/) - Tutoriel en ligne
 - [Git Reference](http://gitref.org/) - Référence simplifiée
 - [Gitcasts](http://gitcasts.com/) - Vidéos en ligne
-- [Github training](https://training.github.com/) - Plein d'autres resources
-
+- [Github training](https://training.github.com/) - Pleins d'autres resources;
 ### Cheat Sheets
+
 - [Github's git cheat sheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
 - [Pastjean's git cheat sheet](https://github.com/pastjean/git-cheat-sheet)
+
 ### WorkFlows
 - https://summit.atlassian.com/archives/2013/inside-the-development-team/git-workflows-a-la-carte
 - https://github.com/nvie/gitflow

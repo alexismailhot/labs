@@ -24,14 +24,16 @@ l'interface [Web](https://github.com/glo2003/project-dashboard-frontend) puisse 
   - `100%` Github
   - `100%` Travis-ci
 - Projet
-  - Description générale du projet de session
+  - `50%` Description générale du projet de session
   - Description du logiciel
   - `50%` Code de base (java)
-  - `10%` Code backend complété
+  - `0%` Code de base (clojure)
+  - `0%` Code de base (go)
+  - `10%` Implémentation de référence (go)
     - Communication
     - Service web
     - Base donnée
-    - Analyze de projet
+    - Analyse de projet
       - Badges
       - Autres données
   - `30%` Interface
@@ -45,23 +47,14 @@ l'interface [Web](https://github.com/glo2003/project-dashboard-frontend) puisse 
     - Endroit pour déployer le code de référence
     - Endroit pour déployer l'interface web (githubpages pourrait fonctionner ou avec le backend de référence)
 
-- TP1
+- TP1 `⭐️`
+- TP2 `❌`
   - Préparation de l'énoncé
   - Introduction au sujet
   - Références
   - Exercices associés
-- TP2 et TP3 et TP4:
-  - Préparation de l'énoncé
-  - Introduction au sujet
-  - Références
-  - Exercices associés
-
-
-- Lifecycle build test deploy profile module tests
-  - sonar qube
-  - critere d'acceptation
-  - retroaction avec le client
-
+- TP3 `❌`
+- TP4 `❌`
 
 ## Le projet
 
