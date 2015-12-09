@@ -35,11 +35,10 @@ Le projet est un programmes qui se connecte et récupère l'information de plusi
   - Badges individuels
 
 ## Préparation des labs
-## Todo:
 
 - Outils
-  - `100%` Github
-  - `100%` Travis-ci
+  - `⭐️` Github
+  - `⭐️` Travis-ci
 - Projet
   - `50%` Description générale du projet de session
   - Description du logiciel
@@ -53,11 +52,13 @@ Le projet est un programmes qui se connecte et récupère l'information de plusi
     - Analyse de projet
       - Badges
       - Autres données
-  - `30%` Interface
+  - `40%` Interface
     - Communication (temps-réel)
     - Affichage de projet
       - Status (github & travis)
       - Badges
+      - Liste
+    - Affichage d'utilisateurs
   - `80%` Infrastructure
     - `` Nom de domaine (idéalement)
     - `` Endroit pour déployer les projets (heroku peut-etre)
