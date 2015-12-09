@@ -11,11 +11,28 @@ Introduction aux processus de génie logiciel
 
 # Kit de départ
 
-Le kit de départ est le code de base à utiliser pour le laboratoire. Il fourni
-un serveur web qui analyse les projets et qui publie les informations afin que
-l'interface [Web](https://github.com/glo2003/project-dashboard-frontend) puisse y accéder
+Le kit de départ est le code de base à utiliser pour le laboratoire, il fourni
+un serveur web de base qui réplique l'implémentation de base avec des (beaucoup) de fonctionnalitées en moins.
 
+Les kits de départ:
 - [java](https://github.com/glo2003/starter-kit-java)
+
+# Le projet
+
+Le projet est un programmes qui se connecte et récupère l'information de plusieurs API (github, travis, etc...) et fourni un API pour un interface externe (web). Il liste les projets sur Github, affiche le status Travis-ci, le nombres problèmes/questions ("issues"), etc... de plusieurs projets de programmation.
+
+- L'interface est situé ici: http://example.com/
+- Le code de l'interface: https://github.com/glo2003/project-dashboard-frontend
+
+## Spécifications
+
+- Lister les projets avec les informations supplémentaires associés
+  - Travis status
+  - Open Issues number
+  - Badges 🆘
+- Lister les utilisateurs (extrait des projets)
+  - Nombre d'issues assignés
+  - Badges individuels
 
 ## Préparation des labs
 ## Todo:
@@ -42,10 +59,10 @@ l'interface [Web](https://github.com/glo2003/project-dashboard-frontend) puisse 
       - Status (github & travis)
       - Badges
   - `80%` Infrastructure
-    - Nom de domaine (idéalement)
-    - Endroit pour déployer les projets (heroku peut-etre)
-    - Endroit pour déployer le code de référence
-    - Endroit pour déployer l'interface web (githubpages pourrait fonctionner ou avec le backend de référence)
+    - `` Nom de domaine (idéalement)
+    - `` Endroit pour déployer les projets (heroku peut-etre)
+    - `` Endroit pour déployer le code de référence
+    - `` Déploiement de l'interface, github pages
 
 - TP1 `⭐️`
 - TP2 `❌`
@@ -55,25 +72,3 @@ l'interface [Web](https://github.com/glo2003/project-dashboard-frontend) puisse 
   - Exercices associés
 - TP3 `❌`
 - TP4 `❌`
-
-## Le projet
-
-The Project server
-==================
-
-- List projects
-- A single project
-
-- List Users
-- A single user
-
-- Forked scheduler
-  - Analyze project
-
-- Manual badge add ... project / key
-
-Has to connect to:
-- CI
-- REPOSITORY
-
------------
