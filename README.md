@@ -21,7 +21,7 @@ Les kits de départ:
 
 Le projet est un programmes qui se connecte et récupère l'information de plusieurs API (github, travis, etc...) et fourni un API pour un interface externe (web). Il liste les projets sur Github, affiche le status Travis-ci, le nombres problèmes/questions ("issues"), etc... de plusieurs projets de programmation.
 
-<img style="width:100%;" src="/resources/project-graph.png">
+<img alt="project architecture" src="/resources/project-architecture.png">
 
 - L'interface est situé ici: http://example.com/
 - Le code de l'interface: https://github.com/glo2003/project-dashboard-frontend
