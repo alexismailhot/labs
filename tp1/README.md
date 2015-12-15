@@ -33,6 +33,7 @@ Dans un autre document (une pratique courante est d'avoir un dossier doc, un wik
 ## Exercice
 
 - [Learn Git Branching](https://pcottle.github.io/learnGitBranching/) - Tutoriel en ligne
+- [GitHub training](https://training.github.com/classes/developers/) - Le "tab" on-demand
 
 ## Remise
 
