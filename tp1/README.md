@@ -28,7 +28,10 @@ Dans un autre document (une pratique courante est d'avoir un dossier doc, un wik
 
 ### Tâches supplémentaires
 
-- gitignore
+- Gitignore
+- Amélioration du projet
+  - Requêtes d'apis dans github
+  - Aller stocker dans rethinkdb
 
 ## Exercice
 
@@ -37,10 +40,12 @@ Dans un autre document (une pratique courante est d'avoir un dossier doc, un wik
 
 ## Remise
 
-- Répertoire git dans github avec `tag` `remise-1` positionné sur le bon commit, le tag doit avoir été créé avant la date limite
-  - Fichier README avec instructions (la section "contributing" peut être dans le même fichier ou externe mais ça doit être spécifié dans le README)
-  - Autre document ou Wiki avec les questions sur `git`
-  - Le projet doit être minimalement fonctionnel
+- Répertoire git dans github avec `tag` `remise-1` positionné sur le bon commit,
+    le tag doit avoir été créé et synchronisé avant la date limite.
+- Fichier README avec instructions (la section "contributing" peut être dans
+    le même fichier ou externe mais ça doit être spécifié dans le README)
+- Autre document ou Wiki avec les questions sur `git`
+- Le projet doit être fonctionnel
 
 ## Références
 
