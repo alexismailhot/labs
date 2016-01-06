@@ -9,24 +9,24 @@
 
 # Kit de départ
 
-Le kit de départ est le code de base à utiliser pour le laboratoire, il fourni
-un serveur web de base qui réplique l'implémentation de base avec des (beaucoup) de fonctionnalitées en moins.
+Le kit de départ est le code de base à utiliser pour le laboratoire, il fournit
+un serveur web de base qui réplique l'implémentation de base avec des fonctionnalitées en moins (plusieurs en moins!).
 
 Les kits de départ:
 - [java](https://github.com/glo2003/starter-kit-java)
 
 # Le projet
 
-Le projet est un programmes qui se connecte et récupère l'information de plusieurs API (github, travis, etc...) et fourni un API pour un interface externe (web). Il liste les projets sur Github, affiche le status Travis-ci, le nombres problèmes/questions ("issues"), etc... de plusieurs projets de programmation.
+Le projet est un programmes qui se connecte et récupère l'information de plusieurs API (github, travis, etc...) et fournit un API pour un interface externe (web). Il liste les projets sur Github, affiche le statut Travis-ci, le nombre de problèmes/questions ("issues"), etc... pour plusieurs projets de programmation.
 
 <img alt="project architecture" src="/resources/project-architecture.png">
 
-- L'interface est situé ici: http://example.com/
+- L'interface est située ici: http://example.com/
 - Le code de l'interface: https://github.com/glo2003/project-dashboard-frontend
 
 ## Spécifications
 
-- Lister les projets avec les informations supplémentaires associés
+- Lister les projets avec les informations supplémentaires associées
   - Travis status
   - Open Issues number
   - Badges 🆘
