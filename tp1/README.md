@@ -11,10 +11,11 @@
 Une base de code a été mise en place, vous devez la mettre dans votre dépot, et y effectuer des amélioration avec quelques contraintes. Vous pouvez partir de zéro avec le language de votre choix (après l'approbation du chargé de laboratoire).
 
 ### Readme
-Un nouveau développeur join votre équipe et devrait être en mesure d'entrer dans le projet le plus rapidement possible. Un fichier README (comme celui-ci) à la racine du projet qui explique les bases. Une autre bonne pratique est d'avoir un fichier CONTRIBUTING à la racine.
+Un nouveau développeur joint votre équipe et devrait être en mesure de s'intégrer au projet le plus rapidement possible. Un fichier README (comme celui-ci) qui est à la racine du projet en explique les bases. Une autre bonne pratique est d'avoir un fichier CONTRIBUTING à la racine.
 - Documentez votre processus avec git  
   - Quoi mettre dans un message de "commit"
-  - Comment faite vous vos fusions (merges)
+  - Quand créer une branche
+  - Comment faites-vous vos fusions (merges)
 
 ### Questions sur git
 
@@ -25,6 +26,7 @@ Dans un autre document (une pratique courante est d'avoir un dossier doc, un wik
   - La différence avec les autres systèmes (distribué / client-serveur)
   - La distinction avec les entrepots distribués et localisés
   - Les avantages et inconvénients par rapport aux autres systèmes (cvs,perforce,svn,hg)
+- Vous devez avoir un minimum de quatre références dont vous présenterez un court résumé pour chacune. Ces références doivent venir supporter vos choix de bonnes pratiques d'équipe.
 
 ### Tâches supplémentaires
 
