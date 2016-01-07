@@ -14,6 +14,7 @@ logiciel, ainsi qu'ajouter quelques foncitonnalités au logiciel
 - Ajouter des foncitonnalités au logiciel. Des "issues" Github seront créés dans
     vos projets et vous aurez a en résoudre 3.
 - Le projet doit être fonctionnel.
+-
 
 ## Remise
 

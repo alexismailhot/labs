@@ -8,18 +8,20 @@
 
 ## Laboratoire
 
-Une base de code a été mise en place, vous devez la mettre dans votre dépot, et y effectuer des amélioration avec quelques contraintes. Vous pouvez partir de zéro avec le language de votre choix (après l'approbation du chargé de laboratoire).
+Une base de code a été mise en place, vous devez la mettre dans votre dépot, et y effectuer des amélioration avec quelques contraintes. Vous pouvez aussi partir de zéro avec le language de votre choix (après l'approbation du chargé de laboratoire).
 
 ### Readme
+
 Un nouveau développeur joint votre équipe et devrait être en mesure de s'intégrer au projet le plus rapidement possible. Un fichier README (comme celui-ci) qui est à la racine du projet en explique les bases. Une autre bonne pratique est d'avoir un fichier CONTRIBUTING à la racine.
-- Documentez votre processus avec git  
+
+- Documentez de façon simple et consise votre processus d'utilisation de git  
   - Quoi mettre dans un message de "commit"
   - Quand créer une branche
   - Comment faites-vous vos fusions (merges)
 
 ### Questions sur git
 
-Dans un autre document (une pratique courante est d'avoir un dossier doc, un wiki est aussi acceptable):
+Dans un autre document (une pratique courante est d'avoir un dossier doc avec des fichiers markdown ou dans un autre format simple, un wiki est aussi acceptable):
 
 - Expliquez pourquoi on utilise un système de gestion du code source et des outils de collaboration.
 - Documentez votre pourquoi git
@@ -31,8 +33,9 @@ Dans un autre document (une pratique courante est d'avoir un dossier doc, un wik
 ### Tâches supplémentaires
 
 - Gitignore
-- Amélioration du projet
-  - Requêtes d'apis dans github
+  - Préparez un fichier `.gitignore` approprié pour votre projet
+- Amélioration du projet (des issues dans Github seront créées dans votre projet)
+  - Requêtes d'API dans github
   - Aller stocker dans rethinkdb
 
 ## Exercice
@@ -48,6 +51,17 @@ Dans un autre document (une pratique courante est d'avoir un dossier doc, un wik
     le même fichier ou externe mais ça doit être spécifié dans le README)
 - Autre document ou Wiki avec les questions sur `git`
 - Le projet doit être fonctionnel
+- Le fichier `.gitignore`
+- Améliorations du projet à partir des issues créées dans votre projet
+
+## Évaluation
+
+- 40% Projet
+  - Nouvelles fonctionnalitées
+  - Utilisation de Git
+  - `.gitignore`
+- 20% Questions
+- 40% Readme 
 
 ## Références
 
@@ -65,7 +79,8 @@ Dans un autre document (une pratique courante est d'avoir un dossier doc, un wik
 - [Learn Git Branching](https://pcottle.github.io/learnGitBranching/) - Tutoriel en ligne
 - [Git Reference](http://gitref.org/) - Référence simplifiée
 - [Gitcasts](http://gitcasts.com/) - Vidéos en ligne
-- [Github training](https://training.github.com/) - Pleins d'autres resources;
+- [Github training](https://training.github.com/) - Plusieurs  autres resources;
+
 ### Cheat Sheets
 
 - [Github's git cheat sheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)

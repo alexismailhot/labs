@@ -10,15 +10,17 @@ automatique du logiciel dans Travis-CI.
 ### Tâches
 
 - Mise en route de l'intégration en continue avec [Travis-ci](https://travis-ci.com/glo2003).
-    Il y a plusieurs exemples sur Github
-- Utilisez [Travis-ci.com][travis], comme nos répertoires `git` sont privés on
-    doit utiliser le Travis-ci privé/pour entreprises.
-- Ajouter quelques tests unitaires
+    Il y a plusieurs [exemples](https://github.com/travis-ci/travis.rb) sur Github
+- Utilisez [Travis-ci.com][travis], comme nos répertoires `git` sont privés nous
+    devons utiliser Travis-ci privé.
+- Ajouter quelques tests unitaires.
 - Ajouter l'exécution des tests unitaires automatiques.
-- Ajouter des foncitonnalités au logiciel. Des "issues" Github seront créés dans
-    vos projets et vous aurez a en résoudre 3.
+- Ajouter des fonctionnalités au logiciel. Des "issues" Github seront créés dans
+    vos projets et vous aurez a en ajouter 3.
 - Le projet doit être fonctionnel
 - Les requis des laboratoires précédents doivents encore être opérationnels
+- Documenter votre processus d'intégration continue, y mettre 4 références et
+   résumer chacune d'elle
 
 ## Remise
 
@@ -28,9 +30,12 @@ automatique du logiciel dans Travis-CI.
     aussi sont fermées).
 - Avoir travis-ci fonctionnel avec les tests unitaires et la construction du
     logiciel automatique fonctionnel.
+- Un document (court et concis), expliquant votre processus
+  d'intégration continue avec 4 références.
 
 ## Références
 
+- [Continuous integration - Martin Fowler](http://www.martinfowler.com/articles/continuousIntegration.html)
 - [Documentation de Travis-ci](https://docs.travis-ci.com/)
 - [Exemple](https://github.com/glo2003/project-dashboard-frontend)
 
