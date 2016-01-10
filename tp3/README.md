@@ -14,7 +14,6 @@ logiciel, ainsi qu'ajouter quelques foncitonnalités au logiciel
 - Ajouter des foncitonnalités au logiciel. Des "issues" Github seront créés dans
     vos projets et vous aurez a en résoudre 3.
 - Le projet doit être fonctionnel.
--
 
 ## Remise
 
@@ -28,7 +27,24 @@ logiciel, ainsi qu'ajouter quelques foncitonnalités au logiciel
   - La vérification du style de code
 - Les requis des laboratoires précédents doivents encore être opérationnels
 
+## Évaluation
+
+Le laboratoire vaut 8% de la session, les notes seront distribuées comme suit:
+
+_(À déterminer)_
+
+ps. Vous êtes évalués autant sur ce que vous livrez que sur la pratique et la façon
+d'y arriver.
 
 ## Références
 
 (À venir)
+
+## NOTES
+
+
+TP3:
+  - Documentation sur les bonnes pratiques
+  - remettre un readme avec références
+  - Ajouter des références vers checkstyle et les trucs additionnel que l'on peut faire
+    - Ça peut servir tout au long du bacc

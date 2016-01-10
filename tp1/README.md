@@ -56,12 +56,18 @@ Dans un autre document (une pratique courante est d'avoir un dossier doc avec de
 
 ## Évaluation
 
+Le laboratoire vaut 8% de la session, les notes seront distribuées comme suit:
+
 - 40% Projet
-  - Nouvelles fonctionnalitées
+  - Nouvelles fonctionnalitées (à détailler)
   - Utilisation de Git
   - `.gitignore`
+  - Qualité du code
 - 20% Questions
-- 40% Readme 
+- 40% Readme
+
+ps. Vous êtes évalués autant sur ce que vous livrez que sur la pratique et la façon
+d'y arriver.
 
 ## Références
 
@@ -71,6 +77,16 @@ Dans un autre document (une pratique courante est d'avoir un dossier doc avec de
 - [Sourcetree](https://www.sourcetreeapp.com)
 - [Github desktop](https://desktop.github.com/)
 - [Tortoise git](https://tortoisegit.org/)
+
+### IDE
+
+- Intellij
+- Netbeans
+- Eclipse
+- Atom
+- Vim
+- ...
+- notepad
 
 ### Aide
 - [Atlassian Git tutorials](https://www.atlassian.com/git/)

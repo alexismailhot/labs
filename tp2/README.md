@@ -33,6 +33,20 @@ automatique du logiciel dans Travis-CI.
 - Un document (court et concis), expliquant votre processus
   d'intégration continue avec 4 références.
 
+## Évaluation
+
+Le laboratoire vaut 8% de la session, les notes seront distribuées comme suit:
+
+- 40% Projet
+  - Nouvelles fonctionnalitées
+  - Utilisation de Git
+  - `.gitignore`
+- 20% Questions
+- 40% Readme
+
+ps. Vous êtes évalués autant sur ce que vous livrez que sur la pratique et la façon
+d'y arriver.
+
 ## Références
 
 - [Continuous integration - Martin Fowler](http://www.martinfowler.com/articles/continuousIntegration.html)

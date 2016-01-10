@@ -24,6 +24,10 @@ Le projet est un programmes qui se connecte et récupère l'information de plusi
 - L'interface est située ici: http://example.com/
 - Le code de l'interface: https://github.com/glo2003/project-dashboard-frontend
 
+- Il y a possibilité d'en faire plus que ce qui est dans le laboratoire (ajoter)
+  des fonctionnalités à l'interface par exemple), il y
+  a un concours à la faculté, pour les meilleurs travaux remis.
+
 ## Spécifications
 
 - Lister les projets avec les informations supplémentaires associées
