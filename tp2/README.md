@@ -2,7 +2,7 @@
 
 ## Laboratoire
 
-À partir du code du laboratoire #1 nous allons ajouter un intégration de la
+À partir du code du laboratoire #1 nous allons ajouter une intégration de la
 gestion des dépendances, l'exécution automatisé des tests et de la construction
 automatique du logiciel dans Travis-CI.
 
@@ -18,7 +18,7 @@ automatique du logiciel dans Travis-CI.
 - Ajouter des fonctionnalités au logiciel. Des "issues" Github seront créés dans
     vos projets et vous aurez a en ajouter 3.
 - Le projet doit être fonctionnel
-- Les requis des laboratoires précédents doivents encore être opérationnels
+- Les requis du laboratoire précédent doivents encore être opérationnels
 - Documenter votre processus d'intégration continue, y mettre 4 références et
    résumer chacune d'elle
 
