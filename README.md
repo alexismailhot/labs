@@ -17,7 +17,7 @@ Les kits de départ:
 
 # Le projet
 
-Le projet est un programmes qui se connecte et récupère l'information de plusieurs API (github, travis, etc...) et fournit un API pour un interface externe (web). Il liste les projets sur Github, affiche le statut Travis-ci, le nombre de problèmes/questions ("issues"), etc... pour plusieurs projets de programmation.
+Le projet est un programmes qui se connecte et récupère l'information de plusieurs API (github, travis, etc...) et fournit un API pour une interface externe (web). Il liste les projets sur Github, affiche le statut Travis-ci, le nombre de problèmes/questions ("issues"), etc... pour plusieurs projets de programmation.
 
 <img alt="project architecture" src="/resources/project-architecture.png">
 
