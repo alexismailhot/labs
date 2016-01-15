@@ -17,14 +17,14 @@ Les kits de départ:
 
 # Le projet
 
-Le projet est un programmes qui se connecte et récupère l'information de plusieurs API (github, travis, etc...) et fournit un API pour un interface externe (web). Il liste les projets sur Github, affiche le statut Travis-ci, le nombre de problèmes/questions ("issues"), etc... pour plusieurs projets de programmation.
+Le projet est un programmes qui se connecte et récupère l'information de plusieurs API (github, travis, etc...) et fournit un API pour une interface externe (web). Il liste les projets sur Github, affiche le statut Travis-ci, le nombre de problèmes/questions ("issues"), etc... pour plusieurs projets de programmation.
 
 <img alt="project architecture" src="/resources/project-architecture.png">
 
 - L'interface est située ici: http://glo2003.xyz/
 - Le code de l'interface: https://github.com/glo2003/project-dashboard-frontend
 
-- Il y a possibilité d'en faire plus que ce qui est dans le laboratoire (ajoter)
+- Il y a possibilité d'en faire plus que ce qui est dans le laboratoire (ajouter
   des fonctionnalités à l'interface par exemple), il y
   a un concours à la faculté, pour les meilleurs travaux remis.
 

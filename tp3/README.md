@@ -11,8 +11,8 @@ logiciel, ainsi qu'ajouter quelques foncitonnalités au logiciel
 - Ajouter le déploiement du logiciel automatiquement dans la tâche sur Travis-CI
 - Ajouter des métriques sur le logiciel (les dépendances à jours, la couverture de code, ...)
 - Ajouter de la vérification de style de code (`code style`). (Ajouter la documentation vers le style de code dans le README)
-- Ajouter des foncitonnalités au logiciel. Des "issues" Github seront créés dans
-    vos projets et vous aurez a en résoudre 3.
+- Ajouter des fonctionnalités au logiciel. Des "issues" Github seront créés dans
+    vos projets et vous aurez a en résoudre au moins 3.
 - Le projet doit être fonctionnel.
 
 ## Remise
@@ -45,6 +45,6 @@ d'y arriver.
 
 TP3:
   - Documentation sur les bonnes pratiques
-  - remettre un readme avec références
+  - Remettre un readme avec références
   - Ajouter des références vers checkstyle et les trucs additionnel que l'on peut faire
     - Ça peut servir tout au long du bacc
