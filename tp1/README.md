@@ -25,8 +25,7 @@ Dans un autre document (une pratique courante est d'avoir un dossier doc avec de
 
 - Expliquez pourquoi on utilise un système de gestion du code source et des outils de collaboration.
 - Documentez votre pourquoi git
-  - La différence avec les autres systèmes (distribué / client-serveur)
-  - La distinction avec les entrepots distribués et localisés
+  - La différence avec les autres systèmes (distribué / localisés)
   - Les avantages et inconvénients par rapport aux autres systèmes (cvs,perforce,svn,hg)
 - Vous devez avoir un minimum de quatre références dont vous présenterez un court résumé pour chacune. Ces références doivent venir supporter vos choix de bonnes pratiques d'équipe.
 
