@@ -52,7 +52,7 @@ Dans un autre document (une pratique courante est d'avoir un dossier doc avec de
 - Autre document ou Wiki avec les questions sur `git`
 - Le projet doit être fonctionnel
 - Le fichier `.gitignore`
-- Améliorations du projet à partir des issues créées dans votre projet
+- Améliorations du projet à partir des issues* créées dans votre projet
 
 ## Évaluation
 

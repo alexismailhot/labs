@@ -21,7 +21,7 @@ Le projet est un programmes qui se connecte et récupère l'information de plusi
 
 <img alt="project architecture" src="/resources/project-architecture.png">
 
-- L'interface est située ici: http://example.com/
+- L'interface est située ici: http://glo2003.xyz/
 - Le code de l'interface: https://github.com/glo2003/project-dashboard-frontend
 
 - Il y a possibilité d'en faire plus que ce qui est dans le laboratoire (ajoter)
