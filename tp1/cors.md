@@ -35,13 +35,10 @@ options("*", (request, response) -> "");
 //dans la classe:
 ...
 private static void enableCORS(final String origin, final String methods, final String headers) {
-    before(new Filter() {
-        @Override
-        public void handle(Request request, Response response) {
-            response.header("Access-Control-Allow-Origin", origin);
-            response.header("Access-Control-Request-Method", methods);
-            response.header("Access-Control-Allow-Headers", headers);
-        }
-    });
+        before((req,resp) -> {
+            resp.header("Access-Control-Allow-Origin", origin);
+            resp.header("Access-Control-Request-Method", methods);
+            resp.header("Access-Control-Allow-Headers", headers);
+        });
 }
 ```
