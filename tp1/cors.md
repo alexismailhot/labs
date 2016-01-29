@@ -1,5 +1,4 @@
 pierre-alexandre.st-jean.1@ulaval.ca
-------------------------------------
 
 1. Je dois pouvoir exécuter les commandes (cli) dans le readme pour compiler/exécuter le programme, gérer les dépendances
 2. Vous avez droit aux librairies externes pour communiquer avec github
