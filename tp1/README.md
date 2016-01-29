@@ -35,7 +35,6 @@ Dans un autre document (une pratique courante est d'avoir un dossier doc avec de
   - Préparez un fichier `.gitignore` approprié pour votre projet
 - Amélioration du projet (des issues dans Github seront créées dans votre projet)
   - Requêtes d'API dans github
-  - Aller stocker dans rethinkdb
 
 ## Exercice
 
