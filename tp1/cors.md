@@ -29,7 +29,7 @@ java:
 //dans le main:
 ...
 enableCORS("*","*","*");
-options("/", (request, response) -> "");
+options("*", (request, response) -> "");
 ...
 
 //dans la classe:
