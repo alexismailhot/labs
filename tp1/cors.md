@@ -25,10 +25,14 @@ r.Use(Cors())
     })
 ```
 java:
-```
-dans le main:
+```java
+//dans le main:
+...
 enableCORS("*","*","*");
+options("/", (request, response) -> "");
+...
 
+//dans la classe:
 ...
 private static void enableCORS(final String origin, final String methods, final String headers) {
     before(new Filter() {
