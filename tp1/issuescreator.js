@@ -2,23 +2,7 @@ var request = require("request");
 
 var teams = [
 "glo2003/team1",
-"glo2003/team1",
-"glo2003/team2",
-"glo2003/team3",
-"glo2003/team4",
-"glo2003/team5",
-"glo2003/team6",
-"glo2003/team7",
-"glo2003/team8",
-"glo2003/team9",
-"glo2003/team10",
-"glo2003/team11",
-"glo2003/team12",
-"glo2003/team13",
-"glo2003/team14",
-"glo2003/team15",
-"glo2003/team16",
-"glo2003/team17"];
+];
 
 const i1body = `Using the github api (or the client available in your language),
 
@@ -108,7 +92,7 @@ teams.forEach( function(team){
     request({
       method: 'POST',
       headers: {
-        'User-Agent': 'request'
+        'User-Agent': 'request',
         'Authorization' : `Bearer ${process.env['GITHUB_TOKEN']}`
       },
       uri: `https://api.github.com/repos/${team}/issues`,
