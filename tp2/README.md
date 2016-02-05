@@ -16,7 +16,7 @@ automatique du logiciel dans Travis-CI.
 - Ajouter quelques tests unitaires.
 - Ajouter l'exécution des tests unitaires automatiques.
 - Ajouter des fonctionnalités au logiciel. Des "issues" Github seront créés dans
-    vos projets et vous aurez a en ajouter 3.
+    vos projets.
 - Le projet doit être fonctionnel
 - Les requis du laboratoire précédent doivents encore être opérationnels
 - Documenter votre processus d'intégration continue, y mettre 4 références et
