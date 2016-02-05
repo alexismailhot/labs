@@ -41,8 +41,7 @@ Le laboratoire vaut 8% de la session, les notes seront distribuées comme suit:
   - Nouvelles fonctionnalitées
   - Utilisation de Git
   - `.gitignore`
-- 20% Questions
-- 40% Readme
+- 60% Document sur l'intégration continue
 
 ps. Vous êtes évalués autant sur ce que vous livrez que sur la pratique et la façon
 d'y arriver.
