@@ -26,19 +26,12 @@ r.Use(Cors())
 ```
 java:
 ```java
-//dans le main:
-...
-enableCORS("*","*","*");
-options("*", (request, response) -> "");
-...
+        options("/", (request, response) -> "");
 
-//dans la classe:
-...
-private static void enableCORS(final String origin, final String methods, final String headers) {
-        before((req,resp) -> {
-            resp.header("Access-Control-Allow-Origin", origin);
-            resp.header("Access-Control-Request-Method", methods);
-            resp.header("Access-Control-Allow-Headers", headers);
+        before((req, resp) -> {
+            resp.header("Access-Control-Allow-Origin", "*");
+            resp.header("Access-Control-Request-Method", req.requestMethod());
+            resp.header("Access-Control-Allow-Headers",
+                        List.ofAll(req.headers()).reduceLeft((s,l) -> (s.isEmpty() ? "": s + ", ")+ l));
         });
-}
 ```
