@@ -32,6 +32,8 @@ java:
             resp.header("Access-Control-Allow-Origin", "*");
             resp.header("Access-Control-Request-Method", req.requestMethod());
             resp.header("Access-Control-Allow-Headers",
-                        List.ofAll(req.headers()).reduceLeft((s,l) -> (s.isEmpty() ? "": s + ", ")+ l));
+                        List.ofAll(req.headers())
+                            .append("X-Requested-With")
+                            .reduceLeft((s,l) -> (s.isEmpty() ? "" : s + ", ") + l));
         });
 ```
