@@ -7,22 +7,23 @@ pierre-alexandre.st-jean.1@ulaval.ca
 
 en go : 
 ```go
+
 func Cors() gin.HandlerFunc {
- return func(c *gin.Context) {
- c.Writer.Header().Add("Access-Control-Allow-Origin", "*")
- c.Next()
- }
+	return func(c *gin.Context) {
+		serveCors(c)
+		c.Next()
+	}
 }
-...
+
+func serveCors(c *gin.Context) {
+	c.Writer.Header().Add("Access-Control-Allow-Origin", c.Request.Header.Get("Origin"))
+	c.Writer.Header().Add("Access-Control-Request-Method", c.Request.Header.Get("Access-Control-Request-Method"))
+	c.Writer.Header().Add("Access-Control-Allow-Headers", c.Request.Header.Get("Access-Control-Request-Headers"))
+}
+
 
 r.Use(Cors())
-
-    r.OPTIONS("/*", func(c *gin.Context) {
-        c.Writer.Header().Add("Access-Control-Allow-Origin", "*")
-        c.Writer.Header().Set("Access-Control-Allow-Methods", "DELETE,POST,PUT,GET")
-        c.Writer.Header().Set("Access-Control-Allow-Headers", "Content-Type")
-        c.Next()
-    })
+r.OPTIONS("/*",serveCors)
 ```
 java:
 ```java
