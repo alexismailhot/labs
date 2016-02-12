@@ -26,7 +26,7 @@ r.Use(Cors())
 ```
 java:
 ```java
-        options("/", (request, response) -> "");
+        options("*", (request, response) -> "");
 
         before((req, resp) -> {
             resp.header("Access-Control-Allow-Origin", "*");
