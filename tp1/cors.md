@@ -27,12 +27,11 @@ r.OPTIONS("/*",serveCors)
 ```
 java:
 ```java
-        options("*", (request,
-                      response) -> "");
+options("*", (request, response) -> "");
 
-        before((req, resp) -> {
-            resp.header("Access-Control-Allow-Origin", req.headers("Origin"));
-            resp.header("Access-Control-Request-Method", req.headers("Access-Control-Request-Method"));
-            resp.header("Access-Control-Allow-Headers", req.headers("Access-Control-Allow-Headers"));
-        });
+before((req, resp) -> {
+    resp.header("Access-Control-Allow-Origin", req.headers("Origin"));
+    resp.header("Access-Control-Request-Method", req.headers("Access-Control-Request-Method"));
+    resp.header("Access-Control-Allow-Headers", req.headers("Access-Control-Allow-Headers"));
+});
 ```
