@@ -3,48 +3,38 @@
 
 ## Laboratoire
 
-Ce laboratoire consiste à ajouter plusieurs tâches d'automatisation sur le
-logiciel, ainsi qu'ajouter quelques foncitonnalités au logiciel
+Dans ce laboratoire, vous aurez a ajouter plusieurs tâche automatisable sur le logiciel.
 
 ### Tâches
 
-- Ajouter le déploiement du logiciel automatiquement dans la tâche sur Travis-CI
-- Ajouter des métriques sur le logiciel (les dépendances à jours, la couverture de code, ...)
-- Ajouter de la vérification de style de code (`code style`). (Ajouter la documentation vers le style de code dans le README)
-- Ajouter des fonctionnalités au logiciel. Des "issues" Github seront créés dans
-    vos projets et vous aurez a en résoudre au moins 3.
+- Déployer sur heroku (ou tout autre plateforme sur l'avis du chargé de lab)
+  - Faire que le déploiement soit automatique et fais par Travis-CI
+- Ajouter du calcul de métriques sur le logiciel (par Travis-CI aussi)
+  - Est-ce que les dépendances sont à jours
+  - Quel est la couverture des tests dans le code
+- Ajouter de la vérification de style de code (`code style`). (Ajouter la documentation vers le style de code dans le README).
+- Un document explicant ce qu'est le déploiement en continue, avec des références associés (wiki, ou dans la documentation de votre projet).
 - Le projet doit être fonctionnel.
 
 ## Remise
 
 - Répertoire git dans github avec `tag` `remise-3` positionné sur le bon commit,
     le tag doit avoir été créé et synchronisé avant la date limite.
-- Avoir les issues choisis terminés, et liés au bon "pull-request" (qui eux
-    aussi sont fermées).
-- Avoir dans travis-ci:
-  - Le déploiement automatique,
-  - Des métriques logiciel
-  - La vérification du style de code
-- Les requis des laboratoires précédents doivents encore être opérationnels
+- Avoir terminés tout les issues.
+- Les requis des laboratoires précédents doivents être fonctionnels
+- Le documens explicant qu'est-ce que le déploiement en continue
 
 ## Évaluation
 
-Le laboratoire vaut 8% de la session, les notes seront distribuées comme suit:
-
-_(À déterminer)_
+Le laboratoire vaut 8% de la session.
 
 ps. Vous êtes évalués autant sur ce que vous livrez que sur la pratique et la façon
 d'y arriver.
 
 ## Références
 
-(À venir)
-
-## NOTES
-
-
-TP3:
-  - Documentation sur les bonnes pratiques
-  - Remettre un readme avec références
-  - Ajouter des références vers checkstyle et les trucs additionnel que l'on peut faire
-    - Ça peut servir tout au long du bacc
+- https://en.wikipedia.org/wiki/Continuous_delivery
+- `go fmt`
+- http://checkstyle.sourceforge.net/
+- https://www.heroku.com/
+- https://docs.travis-ci.com/user/deployment/heroku/
