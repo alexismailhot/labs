@@ -33,8 +33,16 @@ d'y arriver.
 
 ## Références
 
-- https://en.wikipedia.org/wiki/Continuous_delivery
+Style:
 - `go fmt`
 - http://checkstyle.sourceforge.net/
+
+Déploiement:
 - https://www.heroku.com/
 - https://docs.travis-ci.com/user/deployment/heroku/
+
+Continuous delivery:
+- https://en.wikipedia.org/wiki/Continuous_delivery
+- http://techblog.netflix.com/2015/11/global-continuous-delivery-with.html
+- https://aws.amazon.com/codedeploy/
+- http://martinfowler.com/bliki/ContinuousDelivery.html
