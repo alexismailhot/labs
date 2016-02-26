@@ -34,7 +34,7 @@ d'y arriver.
 ## Références
 
 Style:
-- `go fmt`
+- `go fmt` - http://blog.golang.org/go-fmt-your-code
 - http://checkstyle.sourceforge.net/
 
 Déploiement:
