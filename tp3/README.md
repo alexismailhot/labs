@@ -28,6 +28,12 @@ Dans ce laboratoire, vous aurez a ajouter plusieurs tâche automatisable sur le 
 
 Le laboratoire vaut 8% de la session.
 
+- 50% Projet
+  - Nouvelles fonctionnalitées
+  - Utilisation de Git
+  - `.gitignore`
+- 50% Document sur le déploiement continue
+
 ps. Vous êtes évalués autant sur ce que vous livrez que sur la pratique et la façon
 d'y arriver.
 
