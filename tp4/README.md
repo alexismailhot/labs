@@ -29,7 +29,7 @@ Vous devez écrire 8 `User Stories` selon les standards appris dans le cours.
 Vous devrez ensuite les priorisers, en assigner 4 au jalon que vous aurez créé
 pour la remise et les résoudre
 
-Exemples:
+Exemples (ces exemples ne sont pas rédigés selon les standards appris dans le cours délibérément, à vous de bien les reformuler):
 
 - Supporter le "Login with github" (le côté serveur)
 - Augmenter la couverture des tests
@@ -45,18 +45,18 @@ Résolvez 4 Users stories
 ### Rétrospective du processus scrum / agile
 
 Documentez le processus que vous avez utilisé et appris en classe, ce qui aurait
-pu être changé par rapport au type, a la grosseur du projet et par rapport à ce
+pu être changé par rapport au type, à la grosseur du projet et par rapport à ce
 que l'équipe aurait désiré.
 
 ### Évaluation de l'équipe
 
-Avec le formulaire d'évaluation d'équipe
+Avec le formulaire d'évaluation d'équipe sur le portail ENA, à la fin du projet.
 
 ### Évaluation du projet de session
 
 Donnez moi une **courte** évaluation et des commentaires sur le projet de session.
 
-- Ce qui pourrait être améliorer
+- Ce qui pourrait être amélioré
 - Les outils que vous auriez aimer connaître
 - ...
 
