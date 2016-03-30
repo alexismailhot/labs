@@ -1,39 +1,94 @@
 # TP4 - Rédaction de user stories et déroulement d’un sprint
 
-*Ne vous fiez pas à ce TP il est en cours de création*
-
 ## Laboratoire
 
-Ce laboratoire consiste à utiliser un processus de développement logiciel complet
-en intégrant les processus vus en cours ainsi qu'en utilisant
+Ce laboratoire consiste à utiliser un processus de développement logiciel de type
+scrum afin d'améliorer le projet de session. Les outils précédement appris et
+configurés au cours des précédents laboratoires (travis, github, git, maven/gradle/go, ...)
+vous serviront a vous supporter au cours de ce laboratoire.
 
-- Créer un "issue" l'assigner et la régler
-- Régler un 4 "issue" dans la liste qui sera créé dans votre projet
-- Documenter le processus simplement et de façon consise (utiliser la même
-    méthode que dans le premier laboratoire, wiki / readme)
+- Utiliser les issues de github afin d'écrire les "user stories"
+  - Créer les "issues" et les libellé en fonction de leur catégorie.
+  - Vous aurez a prioriser les issues, (vous utilisez les `libellés` pour ça)
+  - Assigner les issues à un jalon (milestone)
 
 ## Remise
 
-- Répertoire git dans github avec `tag` `remise-4` positionné sur le bon commit,
-    le tag doit avoir été créé et synchronisé avant la date limite.
-- Avoir les issues choisis terminés, et liés au bon "pull-request" (qui eux
-    aussi sont fermées).
-- La documentation (simple et consise) du processus utilisé.
-- L'utilisation de ce processus
+- Répertoire github
+  - Utilisation des `issues` (`user stories` et `bug`)
+  - Utilisation des `milestone` (`sprint`)
+- Code dans git, avec n `tag` `remise-4` positionné sur le bon commit
+- Évaluation des membres de l'équipe
+- Évaluation du laboratoire
 - Le projet doit être fonctionnel
 - Les requis des laboratoires précédents doivents encore être opérationnels
 
+### User stories
+
+Vous devez écrire 8 `User Stories` selon les standards appris dans le cours.
+Vous devrez ensuite les priorisers, en assigner 4 au jalon que vous aurez créé
+pour la remise et les résoudre
+
+Exemples:
+
+- Supporter le "Login with github" (le côté serveur)
+- Augmenter la couverture des tests
+- Ajouter de l'information dans l'interface
+- Ajouter le support de badges pour les projets
+
+### Code
+
+```
+Résolvez 4 Users stories
+```
+
+### Rétrospective du processus scrum / agile
+
+Documentez le processus que vous avez utilisé et appris en classe, ce qui aurait
+pu être changé par rapport au type, a la grosseur du projet et par rapport à ce
+que l'équipe aurait désiré.
+
+### Évaluation de l'équipe
+
+Avec le formulaire d'évaluation d'équipe
+
+### Évaluation du projet de session
+
+Donnez moi une **courte** évaluation et des commentaires sur le projet de session.
+
+- Ce qui pourrait être améliorer
+- Les outils que vous auriez aimer connaître
+- ...
+
 ## Évaluation
 
-Le laboratoire vaut 8% de la session, les notes seront distribuées comme suit:
+Le laboratoire vaut 8% de la session.
 
-_(À déterminer)_
+- Github
+  - Utilisation des `issues`
+  - Utilisation des `milestones`
+  - Utilisation des pulls-request liés aux issues
+- 8 User Stories
+  - En résoudre au minimum 4
+- Git
+  - Utilisation des tags
+  - Utilisation des branches
+- Code
+  - Le code doit compiler
+  - On doit pouvoir afficher le résultat dans l'interface web
+- Rétrospective sur le processus (agile/scrum)
+  - Améliorations possibles
+- Évaluation des membres de l'équipe, (critique constructive)
+- Évaluation du projets de sessions (laboratoires 1 à 4)
 
-ps. Vous êtes évalués autant sur ce que vous livrez que sur la pratique et la façon
+> Vous êtes évalués autant sur ce que vous livrez que sur la pratique et la façon
 d'y arriver.
 
 ## Références
 
+- [Agile Manifesto](http://www.agilemanifesto.org/)
+- [SCRUM](http://scrummethodology.com/)
+- [SCRUM - wikipedia](https://en.wikipedia.org/wiki/Scrum_(software_development))
 
 ## NOTES
 
