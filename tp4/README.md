@@ -34,7 +34,7 @@ Exemples (ces exemples ne sont pas rédigés selon les standards appris dans le 
 - Supporter le "Login with github" (le côté serveur)
 - Augmenter la couverture des tests
 - Ajouter de l'information dans l'interface
-- Ajouter le support de badges pour les projets
+- Ajouter le support de badges pour les projets (ex: https://github.com/someteam/acha)
 
 ### Code
 
