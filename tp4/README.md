@@ -17,7 +17,7 @@ vous serviront a vous supporter au cours de ce laboratoire.
 - Répertoire github
   - Utilisation des `issues` (`user stories` et `bug`)
   - Utilisation des `milestone` (`sprint`)
-- Code dans git, avec n `tag` `remise-4` positionné sur le bon commit
+- Code dans git, avec un `tag` `remise-4` positionné sur le bon commit
 - Évaluation des membres de l'équipe
 - Évaluation du laboratoire
 - Le projet doit être fonctionnel
@@ -58,6 +58,7 @@ Donnez moi une **courte** évaluation et des commentaires sur le projet de sessi
 
 - Ce qui pourrait être amélioré
 - Les outils que vous auriez aimer connaître
+- Implémenter une cache
 - ...
 
 ## Évaluation
@@ -89,20 +90,3 @@ d'y arriver.
 - [Agile Manifesto](http://www.agilemanifesto.org/)
 - [SCRUM](http://scrummethodology.com/)
 - [SCRUM - wikipedia](https://en.wikipedia.org/wiki/Scrum_(software_development))
-
-## NOTES
-
-
-TP4:
-  - Sprint scrum
-  - Burndown chart
-  - Milestone dans github
-  - Comment faire ça dans github
-  - Créer des issues , les trier , les assigner a des milestones , mettre des labels
-  - Créer un issue vague qu'ils doivents transformer en user stories
-  - Utiliser des labels
-  - Information sur comment utiliser scrum
-  - Remise : 4 références , dans le readme
-  - Backlog pour le projet et un pour le sprint
-  - Suivre un processus léger / utilisation d'un outil
-  - Faire une rétrospective sur leur processusw
