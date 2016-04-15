@@ -35,6 +35,7 @@ Exemples (ces exemples ne sont pas rédigés selon les standards appris dans le 
 - Augmenter la couverture des tests
 - Ajouter de l'information dans l'interface
 - Ajouter le support de badges pour les projets (ex: https://github.com/someteam/acha)
+- Implémenter une cache
 
 ### Code
 
@@ -58,7 +59,6 @@ Donnez moi une **courte** évaluation et des commentaires sur le projet de sessi
 
 - Ce qui pourrait être amélioré
 - Les outils que vous auriez aimer connaître
-- Implémenter une cache
 - ...
 
 ## Évaluation
