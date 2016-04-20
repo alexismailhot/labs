@@ -87,7 +87,8 @@ d'y arriver.
 - notepad
 
 ### Aide
-- [Atlassian Git tutorials](https://www.atlassian.com/git/)
+- [Atlassian Git guides](https://www.atlassian.com/git/)
+- [Atlassian Git tutorials](https://www.atlassian.com/git/tutorials/)
 - [Git documentation](http://git-scm.com/doc)
 - [Github Help](https://help.github.com/)
 - [Learn Git Branching](https://pcottle.github.io/learnGitBranching/) - Tutoriel en ligne
