@@ -95,6 +95,7 @@ d'y arriver.
 - [Git Reference](http://gitref.org/) - Référence simplifiée
 - [Gitcasts](http://gitcasts.com/) - Vidéos en ligne
 - [Github training](https://training.github.com/) - Plusieurs  autres resources;
+- [Git It](https://github.com/jlord/git-it-electron)
 
 ### Cheat Sheets
 
