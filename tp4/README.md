@@ -80,7 +80,7 @@ Le laboratoire vaut 8% de la session.
 - Rétrospective sur le processus (agile/scrum)
   - Améliorations possibles
 - Évaluation des membres de l'équipe, (critique constructive)
-- Évaluation du projets de sessions (laboratoires 1 à 4)
+- Évaluation du projets de session (laboratoires 1 à 4)
 
 > Vous êtes évalués autant sur ce que vous livrez que sur la pratique et la façon
 d'y arriver.
