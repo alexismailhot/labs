@@ -82,6 +82,17 @@ Le laboratoire vaut 8% de la session.
 - Évaluation des membres de l'équipe, (critique constructive)
 - Évaluation du projets de session (laboratoires 1 à 4)
 
+```
+Utilisation de github: x/3
+Utilisation de git: x/3
+User Stories:
+  - 8 cas:      x/35
+  - Implémentation des 4 cas choisis:  x/35
+Code:
+Rétrospective sur le processus: x/20
+Évaluation du projet de session: x/4
+```
+
 > Vous êtes évalués autant sur ce que vous livrez que sur la pratique et la façon
 d'y arriver.
 
