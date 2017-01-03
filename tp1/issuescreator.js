@@ -28,7 +28,7 @@ For each contributor you should retreive:
 - AvatarURL
 - HTMLURL
 - Type
-- Number of contributions`
+- Number of contributions`;
 
 
 const i2body = `

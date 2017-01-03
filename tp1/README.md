@@ -10,24 +10,38 @@
 
 Une base de code a été mise en place, vous devez la mettre dans votre dépot, et y effectuer des amélioration avec quelques contraintes. Vous pouvez aussi partir de zéro avec le language de votre choix (après l'approbation du chargé de laboratoire).
 
-### Readme
+### Questions sur git
+
+Sur Github, créez un wiki dans lequel il y a une page nommée "Lab 1 - git". Dans ce document markdown, répondez aux questions suivantes:
+
+> **NOTE** Bien qu'il soit possible d'utiliser un GUI tel que Github Desktop ou SourceTree, les questions se concentrent sur l'utilisation de git en ligne de commande puisque cela favorise la compréhension.
+
+1. Expliquez pourquoi on utilise un système de gestion du code source et des outils de collaboration.
+2. Est-ce que git est un système de gestion de versions centralisé ou décentralisé? Quelle est la différence entre les deux? Nommez un avantage et un inconvénient pour chacun des deux types systèmes.
+
+#### Branching et Merge
+
+3. Quelle est la différence entre `git merge` et `git rebase`? Expliquez dans vos propres mots et illustrez votre réponse avec une image (originale ou tirée d'Internet, avec citation).
+4. Nommez trois situations qui peuvent mener à un _merge conflict_.
+
+Les questions suivantes font référence au dépôt suivant: https://github.com/glo2003/merge-conflict-example.
+
+5. Est-ce qu'il y a un conflit entre `branch-a` et `master`? Pourquoi?
+6. Est-ce qu'il y a un conflit entre `branch-a` et `branch-c`? Pourquoi?
+7. Est-ce qu'il y a un conflit entre `branch-a` et `branch-b`? Pourquoi?
+8. Qu'arrive-t-il si on supprime la branche `branch-a`, `branch-b` ou `branch-c`? Est-ce souhaitable?
+9. Faites un rebase de `branch-b` sur `branch-a`. Lister les commandes utilisées, assumant que votre `HEAD` est présentement sur `master`. S'il y a un conflit, nommez également les étapes utilisées pour le résoudre (commandes git, édition de fichier, utilisation d'outils graphiques de merge, etc.)
+10. Ensuite, lister les commandes pour merger `branch-b` sur master puis `branch-c` sur `master`. Ajouter une image de votre graphe de commits après toutes ces opérations. Cette image peut simplement être une capture d'écran de la sortie de `git log --graph --decorate --pretty=oneline --abbrev-commit --all`.
+11. Mantenant, qu'arrive-t-il si on supprime la branche `branch-a`, `branch-b` ou `branch-c`? Est-ce souhaitable?
+
+
+### README
 
 Un nouveau développeur joint votre équipe et devrait être en mesure de s'intégrer au projet le plus rapidement possible. Un fichier README (comme celui-ci) qui est à la racine du projet en explique les bases. Une autre bonne pratique est d'avoir un fichier CONTRIBUTING à la racine.
 
-- Documentez de façon simple et consise votre processus d'utilisation de git  
+- Documentez de façon simple et consise votre processus d'utilisation de git
   - Quoi mettre dans un message de "commit"
   - Quand créer une branche
-  - Comment faites-vous vos fusions (merges)
-
-### Questions sur git
-
-Dans un autre document (une pratique courante est d'avoir un dossier doc avec des fichiers markdown ou dans un autre format simple, un wiki est aussi acceptable):
-
-- Expliquez pourquoi on utilise un système de gestion du code source et des outils de collaboration.
-- Documentez votre pourquoi git
-  - La différence avec les autres systèmes (distribué / localisés)
-  - Les avantages et inconvénients par rapport aux autres systèmes (cvs,perforce,svn,hg)
-- Vous devez avoir un minimum de quatre références dont vous présenterez un court résumé pour chacune. Ces références doivent venir supporter vos choix de bonnes pratiques d'équipe.
 
 ### Tâches supplémentaires
 
@@ -39,7 +53,7 @@ Dans un autre document (une pratique courante est d'avoir un dossier doc avec de
 ## Exercice
 
 - [Learn Git Branching](https://pcottle.github.io/learnGitBranching/) - Tutoriel en ligne
-- [GitHub training](https://training.github.com/classes/developers/) - Le "tab" on-demand
+- [GitHub training](https://services.github.com/on-demand/github-cli/) - Le "tab" on-demand
 
 ## Remise
 
@@ -77,8 +91,8 @@ d'y arriver.
 - [Tortoise git](https://tortoisegit.org/)
 
 ### IDE
-
 - Intellij
+- Spacemacs
 - Netbeans
 - Eclipse
 - Atom
@@ -96,6 +110,7 @@ d'y arriver.
 - [Gitcasts](http://gitcasts.com/) - Vidéos en ligne
 - [Github training](https://training.github.com/) - Plusieurs  autres resources;
 - [Git It](https://github.com/jlord/git-it-electron)
+- [Utiliser Github sans mot de passe avec SSH](https://help.github.com/articles/generating-an-ssh-key/)
 
 ### Cheat Sheets
 
@@ -103,6 +118,7 @@ d'y arriver.
 - [Pastjean's git cheat sheet](https://github.com/pastjean/git-cheat-sheet)
 
 ### WorkFlows
+- https://guides.github.com/introduction/flow/
 - https://summit.atlassian.com/archives/2013/inside-the-development-team/git-workflows-a-la-carte
 - https://github.com/nvie/gitflow
 - http://nvie.com/posts/a-successful-git-branching-model/
@@ -111,6 +127,5 @@ d'y arriver.
 ### Information sur les systèmes de gestion de la configuration / code source
 
 - [Linus Torvalds on Git (youtube)](https://www.youtube.com/watch?v=4XpnKHJAok8)
-
-http://ericsink.com/vcbe/html/history_of_version_control.html
-http://www.git-scm.com/book/en/v2/Getting-Started-About-Version-Control
+- http://ericsink.com/vcbe/html/history_of_version_control.html
+- http://www.git-scm.com/book/en/v2/Getting-Started-About-Version-Control
