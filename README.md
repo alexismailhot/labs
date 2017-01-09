@@ -10,7 +10,7 @@
 # Kit de départ
 
 Le kit de départ est le code de base à utiliser pour le laboratoire, il fournit
-un serveur web de base qui réplique l'implémentation de base avec des fonctionnalitées en moins (plusieurs en moins!).
+un serveur web de base qui réplique l'implémentation de base avec des fonctionnalités en moins (plusieurs en moins!).
 
 Les kits de départ:
 - [java](https://github.com/glo2003/starter-kit-java)
