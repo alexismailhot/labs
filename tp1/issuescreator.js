@@ -23,34 +23,21 @@ this project should retrieve the github projects available from the github
 token you'll have generated. The token should be injected in the software
 using an environment variable named \`GITHUB_TOKEN\`.
 
-The retrieved items should contain for each project retrieved:
-
-- ID
-- Name
-- HTMLURL
-- Contributors (an array)
-- Main language
-- All languages (an array)
-- The open branches (array)
-- The open issues count
-
-For each contributor you should retreive:
+For each contributor you should retrieve:
 
 - Login
 - ID
 - AvatarURL
+- URL
 - HTMLURL
 - Type
 - Number of contributions`;
 
 
 const i2body = `
-The api should return the Items retrieved in #1 using that format
-\`\`\`[
+The api should return the Items retrieved in #1 at the URL \`/developers\` using that format
+\`\`\`
    {
-      "name":"glo2003/glo",
-      "lastCommit":"",
-      "ciStatus":"",
       "contributors":[
          {
             "login":"octocat",
@@ -82,23 +69,52 @@ The api should return the Items retrieved in #1 using that format
          "one-of-em"
       ]
    }
-]\`\`\``
+]\`\`\``;
 
 const i3body = `
+The api should return the pizza menu  at the URL \`/menu/pizzas\` using that format
+\`\`\`
+   {
+      "pizzas":[
+        {
+         "id": 1234,
+         "name": "Pep-fro",
+         "img": "/img/some-img-url.png",
+         "description": "Le grand classique à Gilles",
+         "ingredients": [
+            {
+                "id": 30,
+                "name": "Sauce tomate"
+            },
+            {
+                "id": 33,
+                "name": "Fromage"
+            }
+         ]
+        }
+      ]
+   }
+\`\`\``;
+
+
+
+const i4body = `
 Go look on the internet on how to document an http/json/rest api.
 developers.github.com is a good one.
 
 The API of this web service should be documented so the user interface at glo2003.xyz
 can connect to it, January 22 the interface will be live and kicking ready to connect
 to it
-`
+`;
 
-const issues = [{"title": "Retrieve projects from github",
-  "body": i1body},
-{"title": "Show retrieved projects from github",
- "body": i2body},
-{"title": "Document what how to use your API",
- "body": i3body}];
+const issues = [{"title": "Retrieve developers infos from github",
+                 "body": i1body},
+                {"title": "Add route to the API for developer infos",
+                 "body": i2body},
+                {"title": "Add route to the API for the pizza menu",
+                 "body": i2body},
+                {"title": "Document how to use your API",
+                 "body": i3body}];
 
 teams.forEach( function(team){
   issues.forEach( function(issue){
