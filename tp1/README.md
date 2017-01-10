@@ -131,6 +131,7 @@ d'y arriver.
 - [Github training](https://training.github.com/) - Plusieurs  autres resources;
 - [Git It](https://github.com/jlord/git-it-electron)
 - [Utiliser Github sans mot de passe avec SSH](https://help.github.com/articles/generating-an-ssh-key/)
+- [Ressource sur Git du cours GIF-1003](http://www2.ift.ulaval.ca/~eude/Gif-1003/Initiation_a_git/Labo%20sur%20Git.htm)
 
 ### Cheat Sheets
 
