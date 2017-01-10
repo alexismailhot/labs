@@ -1,12 +1,26 @@
 # TP1 - Gestion de la configuration et outils de collaboration
 
-## Sujet
+## Sujets
 
 - Gestion de la configuration
 - Git
 - Github
+- API REST
 
 ## Laboratoire
+
+### Mise en situation
+
+Comme premier livrable, Gilles, le client, veut connaître d'avantage l'équipe de développement affectée au projet et montrer fièrement son équipe de développeurs
+directement sur le site Web du restaurant. Ainsi, il désire une section _about_ qui liste le nom des développeurs, leurs avatars ainsi que le nombre de _commits_ que chaque développeur a fait dans le projet. Ces informations doivent être générée automatiquement à partir de l'API de Github.
+
+
+Ensuite, Gilles veut pouvoir obtenir un menu des pizzas du restaurant sur le site de sa pizzeria. Le menu consiste simplement en liste de pizzas, avec les attributs suivants:
+- L'id de la pizza
+- Le nom de la pizza
+- Une photo de la pizza
+- Une courte description de la pizza
+- Une liste d'ingrédients (id et nom)
 
 Une base de code a été mise en place, vous devez la mettre dans votre dépot, et y effectuer des amélioration avec quelques contraintes. Vous pouvez aussi partir de zéro avec le language de votre choix (après l'approbation du chargé de laboratoire).
 
@@ -39,16 +53,21 @@ Les questions suivantes font référence au dépôt suivant: https://github.com/
 
 Un nouveau développeur joint votre équipe et devrait être en mesure de s'intégrer au projet le plus rapidement possible. Un fichier README (comme celui-ci) qui est à la racine du projet en explique les bases. Une autre bonne pratique est d'avoir un fichier CONTRIBUTING à la racine.
 
-- Documentez de façon simple et consise votre processus d'utilisation de git
+- Documentez de façon simple et consiste votre processus d'utilisation de git
   - Quoi mettre dans un message de "commit"
   - Quand créer une branche
+- Documentez comment démarrer votre application de manière à ce que quelqu'un qui clone le dépôt (par exemple un correcteur) puisse facile mettre en marche votre application.
 
-### Tâches supplémentaires
+### Autres tâches
 
+- Développement des fonctionnalités du projet du projet (des issues dans Github seront créées par l'auxiliaire directement dans votre projet)
 - Gitignore
-  - Préparez un fichier `.gitignore` approprié pour votre projet
-- Amélioration du projet (des issues dans Github seront créées dans votre projet)
-  - Requêtes d'API dans github
+  - Préparez un fichier `.gitignore` approprié pour votre projet. Y mettre tout ce que vous jugez pertinent selon le langage et l'IDE utilisé.
+- Faire une _pull request_
+  - La manière de travailler avec git n'est pas imposée. Par contre, on demande pour ce livrable d'avoir *au moins une pull request*. 
+    Une pratique courante est d'empêcher les contributeurs de _merger_ sur la branche _master_ sans que certains membres de l'équipe aient approuver
+    les modifications, par le biais d'une _pull request_.
+
 
 ## Exercice
 
@@ -58,13 +77,14 @@ Un nouveau développeur joint votre équipe et devrait être en mesure de s'int�
 ## Remise
 
 - Répertoire git dans github avec `tag` `remise-1` positionné sur le bon commit,
-    le tag doit avoir été créé et synchronisé avant la date limite.
-- Fichier README avec instructions (la section "contributing" peut être dans
+    le tag doit avoir été créé et synchronisé avant la date limite. N'oubliez pas de pusher le tag pour qu'il ne se retrouve pas uniquement en local.
+- Fichier README avec instructions (la section "CONTRIBUTING" peut être dans
     le même fichier ou externe mais ça doit être spécifié dans le README)
 - Autre document ou Wiki avec les questions sur `git`
 - Le projet doit être fonctionnel
 - Le fichier `.gitignore`
-- Améliorations du projet à partir des issues* créées dans votre projet
+- Développement des fonctionnalités du projet à partir des issues créées dans votre dépôt Github
+- Pull request
 
 ## Évaluation
 
