@@ -30,6 +30,8 @@ Sur Github, créez un wiki dans lequel il y a une page nommée "Lab 1 - git". Da
 
 > **NOTE** Bien qu'il soit possible d'utiliser un GUI tel que Github Desktop ou SourceTree, les questions se concentrent sur l'utilisation de git en ligne de commande puisque cela favorise la compréhension.
 
+#### Questions générales
+
 1. Expliquez pourquoi on utilise un système de gestion du code source et des outils de collaboration.
 2. Est-ce que git est un système de gestion de versions centralisé ou décentralisé? Quelle est la différence entre les deux? Nommez un avantage et un inconvénient pour chacun des deux types systèmes.
 
@@ -39,6 +41,8 @@ Sur Github, créez un wiki dans lequel il y a une page nommée "Lab 1 - git". Da
 4. Nommez trois situations qui peuvent mener à un _merge conflict_.
 
 Les questions suivantes font référence au dépôt suivant: https://github.com/glo2003/merge-conflict-example.
+
+#### Exercice
 
 5. Est-ce qu'il y a un conflit entre `branch-a` et `master`? Pourquoi?
 6. Est-ce qu'il y a un conflit entre `branch-a` et `branch-c`? Pourquoi?
@@ -69,11 +73,6 @@ Un nouveau développeur joint votre équipe et devrait être en mesure de s'int�
     les modifications, par le biais d'une _pull request_.
 
 
-## Exercice
-
-- [Learn Git Branching](https://pcottle.github.io/learnGitBranching/) - Tutoriel en ligne
-- [GitHub training](https://services.github.com/on-demand/github-cli/) - Le "tab" on-demand
-
 ## Remise
 
 - Répertoire git dans github avec `tag` `remise-1` positionné sur le bon commit,
@@ -95,11 +94,16 @@ Le laboratoire vaut 8% de la session, les notes seront distribuées comme suit:
   - Utilisation de Git
   - `.gitignore`
   - Qualité du code
-- 20% Questions
-- 40% Readme
+- 30% Questions
+- 30% Readme
 
 ps. Vous êtes évalués autant sur ce que vous livrez que sur la pratique et la façon
 d'y arriver.
+
+## Exercice Supplémentaires
+
+- [Learn Git Branching](https://pcottle.github.io/learnGitBranching/) - Tutoriel en ligne
+- [GitHub training](https://services.github.com/on-demand/github-cli/) - Le "tab" on-demand
 
 ## Références
 
