@@ -35,7 +35,7 @@ For each contributor you should retrieve:
 
 
 const i2body = `
-The api should return the Items retrieved in #1 at the URL \`/developers\` using that format
+The api should return the Items retrieved in #1 at the URL \`/contributors\` using that format
 \`\`\`
    {
       "contributors":[
@@ -48,25 +48,6 @@ The api should return the Items retrieved in #1 at the URL \`/developers\` using
             "type":"User",
             "contributions":32
          }
-      ],
-      "languages":{
-         "C":78769,
-         "Python":7769
-      },
-      "branches":[
-         {
-            "name":"master",
-            "commit":{
-               "sha":"6dcb09b5b57875f334f61aebed695e2e4193db5e",
-               "url":"https://api.github.com/repos/octocat/Hello-World/commits/c5b97d5ae6c19d5c5df71a34c7fbeeda2479ccbc"
-            }
-         }
-      ],
-      "openIssues":[
-
-      ],
-      "badges":[
-         "one-of-em"
       ]
    }
 ]\`\`\``;
