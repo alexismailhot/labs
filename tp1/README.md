@@ -26,7 +26,7 @@ Une base de code a été mise en place, vous devez la mettre dans votre dépot, 
 
 ### Questions sur git
 
-Sur Github, créez un wiki dans lequel il y a une page nommée "Lab 1 - git". Dans ce document markdown, répondez aux questions suivantes:
+Sur Github, créez un wiki dans lequel il y a une page nommée "Lab 1 git". Dans ce document markdown, répondez aux questions suivantes:
 
 > **NOTE** Bien qu'il soit possible d'utiliser un GUI tel que Github Desktop ou SourceTree, les questions se concentrent sur l'utilisation de git en ligne de commande puisque cela favorise la compréhension.
 
