@@ -1,7 +1,7 @@
 var request = require("request");
 
 var teams = [
-    "glo2003/h17-team4",
+    "glo2003/h17-team1",
     // "glo2003/h17-team2",
     // "glo2003/h17-team3",
     // "glo2003/h17-team4",
@@ -77,8 +77,7 @@ The api should return the pizza menu  at the URL \`/menu/pizzas\` using that for
    }
 \`\`\``;
 
-const i4body = `
-When doing a GET request at the root `/` of the server, it should return the index.html.
+const i4body = `When doing a GET request at the root \`/\` of the server, it should return the index.html.
 All other static files (bundle.js, style.css, etc.) should be also configured to be access as static files.
 You can verify this by looking in the chrome devtools (F12 in chrome).
 `;
@@ -88,9 +87,7 @@ const i5body = `
 Go look on the internet on how to document an http/json/rest api.
 developers.github.com is a good one.
 
-The API of this web service should be documented so the user interface at glo2003.xyz
-can connect to it, January 22 the interface will be live and kicking ready to connect
-to it
+The API of this web service should be documented so the user interface can connect to it.
 `;
 
 const issues = [{"title": "Retrieve developers infos from github",
