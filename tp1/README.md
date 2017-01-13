@@ -38,7 +38,7 @@ Sur Github, créez un wiki dans lequel il y a une page nommée "Lab 1 git". Dans
 #### Branching et Merge
 
 3. Quelle est la différence entre `git merge` et `git rebase`? Expliquez dans vos propres mots et illustrez votre réponse avec une image (originale ou tirée d'Internet, avec citation).
-4. Nommez trois situations qui peuvent mener à un _merge conflict_.
+4. Nommez trois situations (trois commandes git) qui peuvent mener à un _merge conflict_.
 
 Les questions suivantes font référence au dépôt suivant: https://github.com/glo2003/merge-conflict-example.
 

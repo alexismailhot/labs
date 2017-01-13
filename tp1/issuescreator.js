@@ -1,20 +1,20 @@
 var request = require("request");
 
 var teams = [
-    "glo2003/h17-team1",
-    "glo2003/h17-team2",
-    "glo2003/h17-team3",
     "glo2003/h17-team4",
-    "glo2003/h17-team5",
-    "glo2003/h17-team6",
-    "glo2003/h17-team7",
-    "glo2003/h17-team8",
-    "glo2003/h17-team9",
-    "glo2003/h17-team10",
-    "glo2003/h17-team11",
-    "glo2003/h17-team12",
-    "glo2003/h17-team13",
-    "glo2003/h17-team14",
+    // "glo2003/h17-team2",
+    // "glo2003/h17-team3",
+    // "glo2003/h17-team4",
+    // "glo2003/h17-team5",
+    // "glo2003/h17-team6",
+    // "glo2003/h17-team7",
+    // "glo2003/h17-team8",
+    // "glo2003/h17-team9",
+    // "glo2003/h17-team10",
+    // "glo2003/h17-team11",
+    // "glo2003/h17-team12",
+    // "glo2003/h17-team13",
+    // "glo2003/h17-team14",
 ];
 
 const i1body = `Using the github api (or the client available in your language),
@@ -77,9 +77,14 @@ The api should return the pizza menu  at the URL \`/menu/pizzas\` using that for
    }
 \`\`\``;
 
-
-
 const i4body = `
+When doing a GET request at the root `/` of the server, it should return the index.html.
+All other static files (bundle.js, style.css, etc.) should be also configured to be access as static files.
+You can verify this by looking in the chrome devtools (F12 in chrome).
+`;
+
+
+const i5body = `
 Go look on the internet on how to document an http/json/rest api.
 developers.github.com is a good one.
 
@@ -93,9 +98,11 @@ const issues = [{"title": "Retrieve developers infos from github",
                 {"title": "Add route to the API for developer infos",
                  "body": i2body},
                 {"title": "Add route to the API for the pizza menu",
-                 "body": i2body},
+                 "body": i3body},
+                {"title": "Add route to get the front end",
+                 "body": i4body},
                 {"title": "Document how to use your API",
-                 "body": i3body}];
+                 "body": i5body}];
 
 teams.forEach( function(team){
   issues.forEach( function(issue){
