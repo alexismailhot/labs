@@ -36,6 +36,7 @@ un serveur web de base qui réplique l'implémentation de base avec des fonction
 
 Les kits de départ:
 - [java](https://github.com/glo2003/starter-kit-java)
+- [clojure](https://github.com/glo2003/starter-kit-clojure)
 
 Sur approbation de l'auxiliaire de laboratoire, vous pouvez également utiliser le langage de programmation de votre choix.
 
