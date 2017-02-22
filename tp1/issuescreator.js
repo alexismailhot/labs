@@ -1,7 +1,8 @@
 var request = require("request");
 
 var teams = [
-    "glo2003/h17-team1",
+    "glo2003/h17-team5",
+    // "glo2003/h17-team1",
     // "glo2003/h17-team2",
     // "glo2003/h17-team3",
     // "glo2003/h17-team4",
@@ -15,6 +16,9 @@ var teams = [
     // "glo2003/h17-team12",
     // "glo2003/h17-team13",
     // "glo2003/h17-team14",
+    // "glo2003/h17-team16",
+    // "glo2003/h17-team17",
+    // "glo2003/h17-team18",
 ];
 
 const i1body = `Using the github api (or the client available in your language),

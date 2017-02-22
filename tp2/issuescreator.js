@@ -1,29 +1,28 @@
 var request = require("request");
 
 var teams = [
-"glo2003/team1",
-"glo2003/team2",
-"glo2003/team3",
-"glo2003/team4",
-"glo2003/team5",
-"glo2003/team6",
-"glo2003/team7",
-"glo2003/team8-backend",
-"glo2003/team9",
-"glo2003/team10",
-"glo2003/team11",
-"glo2003/team12",
-"glo2003/team13",
-"glo2003/team14",
-"glo2003/team16",
-"glo2003/team17",
-"glo2003/team18",
+    "glo2003/h17-team1",
+    "glo2003/h17-team2",
+    "glo2003/h17-team3",
+    "glo2003/h17-team4",
+    "glo2003/h17-team5",
+    "glo2003/h17-team6",
+    "glo2003/h17-team7",
+    "glo2003/h17-team8-backend",
+    "glo2003/h17-team9",
+    "glo2003/h17-team10",
+    "glo2003/h17-team11",
+    "glo2003/h17-team12",
+    "glo2003/h17-team13",
+    "glo2003/h17-team14",
+    "glo2003/h17-team16",
+    "glo2003/h17-team17",
+    "glo2003/h17-team18",
 ];
 
 const i1body = `
 Au livrable précédent, la route \`/menu/pizzas\` retournait des données arbitraires. Maintenant, connectez ce menu à la base de données de production.
-L'URL de la base de données est mongodb://<dbuser>:<dbpassword>@ds131139.mlab.com:31139/glo2003-prod. Le nom d'utilisateur est \`teams\` et le mot de
-passe est \`hickeyisright\`.
+L'URL de la base de données est \`mongodb://<dbuser>:<dbpassword>@ds131139.mlab.com:31139/glo2003-prod\`. Le nom d'utilisateur est \`teams\` et le mot de passe est \`hickeyisright\`.
 `;
 
 const i2body = `
@@ -71,8 +70,7 @@ Ces top 10 doivent provenir des achats de la collection \`purchases\` de la base
 `;
 
 const i4body = `
-Ajouter des tests automatisés sur le calcul des tops 10. Ces tests doivent fonctionner dans Travis-CI. Bien sûr, ces tests doivent
-s'exécuter en isolation, c'est-à-dire sans utiliser la base de donnée de production.
+Ajoutez des tests automatisés sur le calcul des tops 10. Ces tests doivent fonctionner dans Travis-CI. Bien sûr, ces tests doivent s'exécuter en isolation, c'est-à-dire sans utiliser la base de donnée de production.
 `;
 
 
@@ -82,7 +80,7 @@ permet d'avoir des tests reproductibles qui s'exécutent en isolation.
 `;
 
 const i6body = `
-Documentez qu'est-ce que l'intégration en continue et quelles sont les bonnes pratique.
+Documentez qu'est-ce que l'intégration continue et quelles sont les bonnes pratiques.
 Vos dire doivent être basé sur des références que vous allez résumer. Vous serez évalués sur
 la rigueur de vos explications ainsi que la qualité de la recherche. Cette documentation
 doit être faite à partir d'au moins quatre sources citée.
@@ -123,7 +121,8 @@ teams.forEach( function(team){
         'Authorization' : `Bearer ${process.env['GITHUB_TOKEN']}`
       },
       uri: `https://api.github.com/repos/${team}/issues`,
-      json: issue
+      json: issue,
+      followRedirect: true
     },function(error, response, body){
       if (error) {
         return console.error('upload failed:', error);
