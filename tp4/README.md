@@ -3,11 +3,7 @@
 ## Laboratoire
 
 Ce laboratoire consiste à utiliser un processus de développement logiciel de type
-<<<<<<< HEAD
 Scrum afin d'améliorer le projet de session. Les outils précédemment appris et
-=======
-scrum afin d'améliorer le projet de session. Les outils précédement appris et
->>>>>>> a0a139b1abd7f20e4456bc2dd1f0166faa002e4f
 configurés au cours des précédents laboratoires (travis, github, git, maven/gradle/go, ...)
 serviront à vous supporter au cours de ce laboratoire.
 
@@ -34,11 +30,7 @@ Vous devrez répondre à ces questions dans un wiki `Labo 4`.
 
 1. Utilisez-vous un ou plusieurs tableau? Quel est le rôle de chaque tableau?
 2. Énumérez les colonnes des tableaux et décrivez leurs rôles en quelques mots.
-<<<<<<< HEAD
 3. Selon vous, est-ce que votre façon de travailler avec les tableaux ressemble plus à Scrum ou Kanban? Justifiez, en donnant deux (2) sources pertinentes.
-=======
-3. Selon vous, est-ce que votre façon de travailler avec les tableaux ressemble plus à Scrum ou Kanban? Justifiez, en donnant deux (2) sources pertinantes.
->>>>>>> a0a139b1abd7f20e4456bc2dd1f0166faa002e4f
 
 
 ### Rétrospective sur votre processus de développement
