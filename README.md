@@ -5,7 +5,7 @@
 - [TP1 - Gestion de la configuration et outils de collaboration](tp1/README.md)
 - [TP2 - Intégration en continue: Automatisation de la gestion du build et des dépendances et des tests](tp2/README.md)
 - [TP3 - Automatisation de tâches variée (déploiement en continue) et métriques associées au logiciel](tp3/README.md)
-- [TP4 - Rédaction de user stories et déroulement d’un sprint](tp4/README.md)
+- [TP4 - Sprint, agilité](tp4/README.md)
 
 
 # Le projet - La pizzeria à Gilles
