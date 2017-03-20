@@ -43,10 +43,10 @@ Vous devrez répondre à ces questions dans un wiki `Labo 4`.
 
 ### Rétrospective sur votre processus de développement
 
-Dans le wiki `Labo 4`, répondez aux questions suivantes. La qualité de réflexion est évaluée. Une équipe qui fait des bons lien entre sa façon de travailler et l'agilité et
+Dans le wiki `Labo 4`, répondez aux questions suivantes. La qualité de réflexion est évaluée. Une équipe qui fait des bons liens entre sa façon de travailler et l'agilité et
 une autre qui expose bien ses lacune au niveau de l'agilité auront toutes deux tous les points.
 
-1. Quelle est la qualité de leur travail final? Reste-t-il une dette technique?
+1. Quelle est la qualité de votre travail final? Reste-t-il une dette technique?
 
 2. Quelle bonne façon de travailler a été mise en place par l’équipe et que les coéquipiers voudraient continuer à utiliser à l’avenir? Quels ont été les bons coups?
 Y a-t-il eu des obstacles au travail d’équipe? Y a-t-il des compétences en génie logiciel ou des connaissances sur les outils ou les processus à aller chercher?
@@ -70,7 +70,7 @@ Donnez moi une évaluation et des commentaires sur le projet de session.
 - Les outils que vous auriez aimé connaître
 - ...
 
-Ces commentaires seront utiles pour l'élaboration du projet l'an prochain. Des points est accordé à la présence de cette évaluation.
+Ces commentaires seront utiles pour l'élaboration du projet l'an prochain. Des points sont accordés à la présence de cette évaluation.
 
 ## Remise
 
