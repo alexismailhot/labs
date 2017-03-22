@@ -59,6 +59,38 @@ Le laboratoire vaut 8% de la session.
 P.S. Vous êtes évalués autant sur ce que vous livrez que sur la pratique et la façon
 d'y arriver.
 
+## Grille
+```
+Code		Pondération
+Fonctionalité 1		15
+		
+Fonctionalité 2		15
+		
+Déploiment sur Heroku automatisé		10
+Code Style check		5
+Software metric calculation		5
+User stories		
+User story 1		3.75
+User story 2		3.75
+User story 3		3.75
+User story 4		3.75
+User story 5		3.75
+User story 6		3.75
+User story 7		3.75
+User story 8		3.75
+Documentation		
+Déploiment continu		
+	Sources variées (2 sources, 2 compagnies)	5
+	Avantages et bonnes pratiques pour les entreprises	10
+Rétrospective - Qualité du code		5
+Pénalités		
+Pas de tag remise-3		-5
+Erreur au démarrage de l'application		-1
+Pas fermé les issues		-2
+Pas de mention des commits no. dans les issues		-2
+TOTAL		100
+```
+
 ## Références
 
 Style:
