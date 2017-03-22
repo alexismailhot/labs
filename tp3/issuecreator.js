@@ -1,7 +1,7 @@
 var request = require("request");
 
 var teams = [
-    "glo2003/h17-team1",
+    // "glo2003/h17-team1",
     "glo2003/h17-team2",
     "glo2003/h17-team3",
     "glo2003/h17-team4",
