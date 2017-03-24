@@ -68,6 +68,7 @@ Ces commentaires seront utiles pour l'élaboration du projet l'an prochain. Des 
 
 - Lien vers votre (vos) tableau(x) de style Scrum ou Kanban dans le wiki (Github Projects, Trello, Waffle.io, etc.)
 - Code dans git, avec un `tag` `remise-4` positionné sur le bon commit
+- **Le tp sera corriger sur Heroku**. Vous devrez donc le déployer comme au TP3
 - Évaluation des membres de l'équipe
 - Rétrospective de projet et réflexion
 - Évaluation du laboratoire
