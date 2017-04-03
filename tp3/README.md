@@ -62,9 +62,9 @@ d'y arriver.
 ## Grille
 ```
 Code		Pondération
-Fonctionalité 1		15
+Fonctionnalité 1		15
 		
-Fonctionalité 2		15
+Fonctionnalité 2		15
 		
 Déploiment sur Heroku automatisé		10
 Code Style check		5
