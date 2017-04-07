@@ -15,7 +15,7 @@ serviront à vous supporter au cours de ce laboratoire.
 
 > *NOTE* Validez avec l'auxiliaire de laboratoire les user stories que vous voulez implémenter pour confirmer si les stories ont une complexité adéquate.
 
-> *NOTE* Le test d'acceptation doit être end-to-end. L'utilisation d'outils spécifiquement conçus pour les tests d'acceptation (ex. Cucumber) est encouragée mais non requise.
+> *NOTE* Le test d'acceptation doit être end-to-end. L'utilisation d'outils spécifiquement conçus pour les tests d'acceptation (ex. Cucumber) est encouragée mais non requise. Précision 7 avril: Même si vous n'utilisez pas Cucumber, **votre test doit être automatisé dans Travis** (avec ex. JUnit).
 
 
 ## Tableaux agiles
