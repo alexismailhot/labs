@@ -56,7 +56,7 @@ Avec le formulaire d'évaluation d'équipe sur le portail ENA, à la fin du proj
 
 ### Évaluation du projet de session
 
-Donnez moi une évaluation et des commentaires sur le projet de session.
+Donnez-moi une évaluation et des commentaires sur le projet de session dans le wiki.
 
 - Ce qui pourrait être amélioré
 - Les outils que vous auriez aimé connaître
