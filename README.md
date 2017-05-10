@@ -14,7 +14,7 @@ Gilles opère la pizzeria familiale depuis des dizaines d'années. Voyant ses pa
 il a décidé qu'il était grand de lancer son entreprise sur le Web.
 
 
-Gilles vous engage donc pour développer le système informatique de son restaurent. Il a de grandes ambitions:
+Gilles vous engage donc pour développer le système informatique de son restaurant. Il a de grandes ambitions:
 
 - Gestion des commandes
 - Statistiques sur les commandes pour voir les tendances
