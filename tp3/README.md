@@ -26,9 +26,10 @@ Vous devrez ensuite les prioriser. Dans ce TP, vous devrez **implémenter 2 user
 
 Exemples (ces exemples ne sont pas rédigés selon les standards appris dans le cours délibérément, à vous de bien les reformuler):
 
-- Ajouter une route pour commander des pizzas (ex. POST à `/orders`)
-- Implémenter une cache pour les images
+- Gérer les disponibilités d'un employé
+- Notifier les employés que l'horaire de la semaine a été créé
 - Ajouter de l'information dans l'interface
+- ...
 
 Quelques notes:
 

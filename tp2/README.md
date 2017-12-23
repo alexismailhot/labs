@@ -27,8 +27,7 @@ automatique du logiciel dans Travis-CI.
 
 - Répertoire git dans github avec `tag` `remise-2` positionné sur le bon commit,
     le tag doit avoir été créé et synchronisé avant la date limite.
-- Avoir les issues terminés.
-    aussi sont fermées).
+- Avoir les issues terminées et fermées.
 - Avoir travis-ci fonctionnel avec les tests unitaires et la construction du
     logiciel automatique fonctionnel.
 - Réponses aux questions et documentation demandées dans les issues
@@ -38,11 +37,11 @@ automatique du logiciel dans Travis-CI.
 Le laboratoire vaut 8% de la session, les notes seront distribuées comme suit:
 
 - 50% Projet
-  - Nouvelles fonctionnalitées
+  - Nouvelles fonctionnalités
   - Utilisation de Git
 - 50% Wiki
 
-ps. Vous êtes évalués autant sur ce que vous livrez que sur la pratique et la façon
+PS: Vous êtes évalués autant sur ce que vous livrez que sur la pratique et la façon
 d'y arriver.
 
 ## Références
