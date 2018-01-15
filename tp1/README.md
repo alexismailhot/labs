@@ -11,24 +11,65 @@
 
 ### Mise en situation
 
-Comme premier livrable, Gilles, le client, veut connaître d'avantage l'équipe de développement affectée au projet et montrer fièrement son équipe de développeurs
-directement sur le site Web du restaurant. Ainsi, il désire une section _about_ qui liste le nom des développeurs, leurs avatars ainsi que le nombre de _commits_ que chaque développeur a fait dans le projet. Ces informations doivent être générée automatiquement à partir de l'API de Github.
+Comme premier livrable, Otto, votre client, veut simplement pouvoir consulter l'horaire de la semaine.
 
+Le [frontend](https://github.com/glo2003/h18-frontend), qui a déjà été implémenté en grande partie pour vous, essaie d'aller
+chercher dans votre API REST l'horaire de la semaine avec la requête suivante:
 
-Ensuite, Gilles veut pouvoir obtenir un menu des pizzas du restaurant sur le site de sa pizzeria. Le menu consiste simplement en liste de pizzas, avec les attributs suivants:
-- L'id de la pizza
-- Le nom de la pizza
-- Une photo de la pizza
-- Une courte description de la pizza
-- Une liste d'ingrédients (id et nom)
+```
+GET /schedules/:startOfWeek
+{}
+```
+_`:startOfWeek` est un paramètre qui correspond au premier jour de la semaine en format `YYYY-MM-DD`. Exemple: `/schedules/2018-01-15`_
 
-Une base de code a été mise en place, vous devez la mettre dans votre dépot, et y effectuer des amélioration avec quelques contraintes. Vous pouvez aussi partir de zéro avec le language de votre choix (après l'approbation du chargé de laboratoire).
+Et le frontend s'attend à ce que votre API retourne une réponse en format JSON avec la structure suivante:
+
+```
+{
+  "days": [
+    {
+      "datetime": "2018-01-15T00:00:00.000Z",
+      "timeSlots": [
+        {
+          "datetime": "2018-01-15T10:00:00.000Z",
+          "scheduledStaffs": []
+        },
+        {
+          "datetime": "2018-01-15T11:00:00.000Z",
+          "scheduledStaffs": []
+        },
+        ...
+        {
+          "datetime": "2018-01-15T22:00:00.000Z",
+          "scheduledStaffs": []
+        },
+      ]
+    },
+    ...
+  ]
+}
+```
+
+Où le tableau `days` représente chacun des jours de la semaine et où chaque jour possède des heures d'ouverture (`timeSlots`) 
+avec leur liste d'employés cédulés (vide pour le moment).
+
+Une base de code a été mise en place, vous devez la mettre dans votre dépot, et y effectuer des amélioration avec quelques contraintes. 
+Vous pouvez aussi partir de zéro avec le language de votre choix (après l'approbation du chargé de laboratoire).
+
+#### Critères de succès
+
+| Critère | Description |
+| ------- | ----------- |
+| C1 | L'horaire des 7 jours de la semaine en cours sont affichés |
+| C2 | Les heures d'ouverture par défaut sont de 11:00 à 22:00 |
+| C3 | Le premier jour de la semaine est un dimanche |
+| C4 | Le dernier jour de la semaine est un samedi |
 
 ### Questions sur git
 
 Sur Github, créez un wiki dans lequel il y a une page nommée "Lab 1 git". Dans ce document markdown, répondez aux questions suivantes:
 
-> **NOTE** Bien qu'il soit possible d'utiliser un GUI tel que Github Desktop ou SourceTree, les questions se concentrent sur l'utilisation de git en ligne de commande puisque cela favorise la compréhension.
+> **NOTE** Bien qu'il soit possible d'utiliser un GUI tel que Github Desktop ou SourceTree, les questions se concentrent sur l'utilisation de git en ligne de commande puisque cela favorise la compréhension et vous rendra plus productif une fois que vous le maîtriserez mieux.
 
 #### Questions générales
 
@@ -57,7 +98,7 @@ Les questions suivantes font référence au dépôt suivant: https://github.com/
 
 Un nouveau développeur joint votre équipe et devrait être en mesure de s'intégrer au projet le plus rapidement possible. Un fichier README (comme celui-ci) qui est à la racine du projet en explique les bases. Une autre bonne pratique est d'avoir un fichier CONTRIBUTING à la racine.
 
-- Documentez de façon simple et consiste votre processus d'utilisation de git
+- Documentez de façon simple et concise votre processus d'utilisation de git
   - Quoi mettre dans un message de "commit"
   - Quand créer une branche
 - Documentez comment démarrer votre application de manière à ce que quelqu'un qui clone le dépôt (par exemple un correcteur) puisse facile mettre en marche votre application.
@@ -90,15 +131,14 @@ Un nouveau développeur joint votre équipe et devrait être en mesure de s'int�
 Le laboratoire vaut 8% de la session, les notes seront distribuées comme suit:
 
 - 40% Projet
-  - Nouvelles fonctionnalitées (à détailler)
+  - Nouvelles fonctionnalités (à détailler)
   - Utilisation de Git
   - `.gitignore`
   - Qualité du code
 - 30% Questions
 - 30% Readme
 
-ps. Vous êtes évalués autant sur ce que vous livrez que sur la pratique et la façon
-d'y arriver.
+PS: Vous êtes évalués autant sur ce que vous livrez que sur la pratique et la façon d'y arriver.
 
 ## Exercice Supplémentaires
 
