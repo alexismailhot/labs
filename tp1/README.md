@@ -28,19 +28,19 @@ Et le frontend s'attend à ce que votre API retourne une réponse en format JSON
 {
   "days": [
     {
-      "datetime": "2018-01-15T00:00:00.000Z",
+      "datetime": "2018-01-15T00:00:00.000",
       "timeSlots": [
         {
-          "datetime": "2018-01-15T10:00:00.000Z",
+          "datetime": "2018-01-15T11:00:00.000",
           "scheduledStaffs": []
         },
         {
-          "datetime": "2018-01-15T11:00:00.000Z",
+          "datetime": "2018-01-15T12:00:00.000",
           "scheduledStaffs": []
         },
         ...
         {
-          "datetime": "2018-01-15T22:00:00.000Z",
+          "datetime": "2018-01-15T22:00:00.000",
           "scheduledStaffs": []
         },
       ]
