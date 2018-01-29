@@ -1,24 +1,24 @@
 var request = require("request");
 
 var teams = [
-    "glo2003/glo-2003-h18-team01",
-    "glo2003/DewEAT",
-    "glo2003/glo-2003-h18-team03",
-    "glo2003/glo-2003-h18-team04",
-    "glo2003/glo-2003-h18-team05",
-    "glo2003/glo-2003-h18-team06",
-    "glo2003/glo-2003-h18-team07",
-    "glo2003/glo-2003-h18-team08",
-    "glo2003/glo-2003-h18-team09",
-    "glo2003/glo-2003-h18-team10",
-    "glo2003/glo-2003-h18-team11",
-    "glo2003/glo-2003-h18-team12",
-    "glo2003/glo-2003-h18-team13",
-    "glo2003/glo-2003-h18-team14",
-    "glo2003/glo-2003-h18-team15",
-    "glo2003/glo-2003-h18-team16",
-    "glo2003/glo-2003-h18-team17",
-    "glo2003/glo-2003-h18-team18"
+    "glo2003/glo-2003-h18-team-01",
+    "glo2003/glo-2003-h18-team-02",
+    "glo2003/glo-2003-h18-team-03",
+    "glo2003/glo-2003-h18-team-04",
+    "glo2003/glo-2003-h18-team-05",
+    "glo2003/glo-2003-h18-team-06",
+    "glo2003/glo-2003-h18-team-07",
+    "glo2003/glo-2003-h18-team-08",
+    "glo2003/glo-2003-h18-team-09",
+    "glo2003/glo-2003-h18-team-10",
+    "glo2003/glo-2003-h18-team-11",
+    "glo2003/glo-2003-h18-team-12",
+    "glo2003/glo-2003-h18-team-13",
+    "glo2003/glo-2003-h18-team-14",
+    "glo2003/glo-2003-h18-team-15",
+    "glo2003/glo-2003-h18-team-16",
+    "glo2003/glo-2003-h18-team-17",
+    "glo2003/glo-2003-h18-team-18"
 ];
 
 const i1body = `
