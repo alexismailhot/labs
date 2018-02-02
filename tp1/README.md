@@ -56,14 +56,9 @@ avec leur liste d'employés cédulés (vide pour le moment).
 Une base de code a été mise en place, vous devez la mettre dans votre dépot, et y effectuer des amélioration avec quelques contraintes. 
 Vous pouvez aussi partir de zéro avec le language de votre choix (après l'approbation du chargé de laboratoire).
 
-#### Critères de succès
+#### Conditions de succès
 
-| Critère | Description |
-| ------- | ----------- |
-| C1 | L'horaire des 7 jours de la semaine en cours sont affichés |
-| C2 | Les heures d'ouverture par défaut sont de 11:00 à 22:00 |
-| C3 | Le premier jour de la semaine est un dimanche |
-| C4 | Le dernier jour de la semaine est un samedi |
+Voir les issues créées dans chacun de vos repositories.
 
 ### Questions sur git
 
