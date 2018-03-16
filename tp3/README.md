@@ -21,13 +21,16 @@ Dans ce laboratoire, vous aurez à ajouter plusieurs tâches automatisables sur 
 
 ### User stories
 
-Vous devez écrire 8 `User Stories` selon les standards appris dans le cours.
+Vous devez écrire 5 `User Stories` selon les standards appris dans le cours.
 Vous devrez ensuite les prioriser. Dans ce TP, vous devrez **implémenter 2 user stories**.
 
 Exemples (ces exemples ne sont pas rédigés selon les standards appris dans le cours délibérément, à vous de bien les reformuler):
 
+- Gérer la liste des employés
 - Gérer les disponibilités d'un employé
+- Enlever un employé de l'horaire
 - Notifier les employés que l'horaire de la semaine a été créé
+- Changer les heures d'ouverture
 - Ajouter de l'information dans l'interface
 - ...
 
