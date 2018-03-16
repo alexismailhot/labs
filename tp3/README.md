@@ -64,33 +64,29 @@ P.S. Vous êtes évalués autant sur ce que vous livrez que sur la pratique et l
 d'y arriver.
 
 ## Grille
-```
-Code		Pondération
-Fonctionnalité 1		15
-		
-Fonctionnalité 2		15
-		
-Déploiment sur Heroku automatisé		10
-Code Style check		5
-Software metric calculation		5
-User stories		
-User story 1		6
-User story 2		6
-User story 3		6
-User story 4		6
-User story 5		6
-Documentation		
-Déploiment continu		
-	Sources variées (2 sources, 2 compagnies)	5
-	Avantages et bonnes pratiques pour les entreprises	10
-Rétrospective - Qualité du code		5
-Pénalités		
-Pas de tag remise-3		-5
-Erreur au démarrage de l'application		-1
-Pas fermé les issues		-2
-Pas de mention des commits no. dans les issues		-2
-TOTAL		100
-```
+
+| Code | Pondération |
+|:-|:-:|
+| Fonctionnalité 1 | 15 |
+| Fonctionnalité 2 | 15 |
+| Déploiement automatisé | 10 |
+| Code style check | 5 |
+| Software metric calculation | 5 |
+| User story 1 | 6 |
+| User story 2 | 6 |
+| User story 3 | 6 |
+| User story 4 | 6 |
+| User story 5 | 6 |
+| CD: sources variées (2 sources, 2 compagnies) | 5 |
+| CD: avantages et bonnes pratiques pour les entreprises | 10 |
+| Rétrospective - Qualité du code | 5 |
+| Pas de tag remise-3 | -5 |
+| Erreur au démarrage de l'application | -1 |
+| Pas fermé les issues | -2 |
+| Pas de mention des commits no. dans les issues | -2 |
+| **TOTAL** | 100 |
+
+_CD: Continuous deployment_
 
 ## Références
 
