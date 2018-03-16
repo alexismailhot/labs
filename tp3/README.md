@@ -74,14 +74,11 @@ Déploiment sur Heroku automatisé		10
 Code Style check		5
 Software metric calculation		5
 User stories		
-User story 1		3.75
-User story 2		3.75
-User story 3		3.75
-User story 4		3.75
-User story 5		3.75
-User story 6		3.75
-User story 7		3.75
-User story 8		3.75
+User story 1		6
+User story 2		6
+User story 3		6
+User story 4		6
+User story 5		6
 Documentation		
 Déploiment continu		
 	Sources variées (2 sources, 2 compagnies)	5
