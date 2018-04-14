@@ -81,7 +81,7 @@ d'y arriver.
 | CD: avantages et bonnes pratiques pour les entreprises | 10 |
 | Rétrospective - Qualité du code | 5 |
 | Pas de tag remise-3 | -5 |
-| Erreur au démarrage de l'application | -1 |
+| Erreur au démarrage de l'application | -10 |
 | Pas fermé les issues | -2 |
 | Pas de mention des commits no. dans les issues | -2 |
 | **TOTAL** | 100 |
