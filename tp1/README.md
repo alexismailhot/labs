@@ -11,49 +11,35 @@
 
 ### Mise en situation
 
-Comme premier livrable, Otto, votre client, veut simplement pouvoir consulter l'horaire de la semaine.
+Comme premier livrable, vos voisins veulent simplement pouvoir offrir un nouveau bien ou service.
 
-Le [frontend](https://github.com/glo2003/h18-frontend), qui a déjà été implémenté en grande partie pour vous, essaie d'aller
-chercher dans votre API REST l'horaire de la semaine avec la requête suivante:
-
-```
-GET /schedules/:startOfWeek
-{}
-```
-_`:startOfWeek` est un paramètre qui correspond au premier jour de la semaine en format `YYYY-MM-DD`. Exemple: `/schedules/2018-01-15`_
-
-Et le frontend s'attend à ce que votre API retourne une réponse en format JSON avec la structure suivante:
+Le [frontend](https://github.com/glo2003/officiel-projet-h19), qui a déjà été implémenté en grande partie pour vous,
+essaie d'ajouter une offre dans votre API REST avec la requête suivante:
 
 ```
+POST /listings
 {
-  "days": [
-    {
-      "datetime": "2018-01-15T00:00:00.000",
-      "timeSlots": [
-        {
-          "datetime": "2018-01-15T11:00:00.000",
-          "scheduledStaffs": []
-        },
-        {
-          "datetime": "2018-01-15T12:00:00.000",
-          "scheduledStaffs": []
-        },
-        ...
-        {
-          "datetime": "2018-01-15T22:00:00.000",
-          "scheduledStaffs": []
-        },
-      ]
-    },
-    ...
-  ]
+  "title": ""::string,
+  "owner": {
+    "name": ""::string,
+    "phoneNumber": ""::string
+  },
+  "description": ""::string,
 }
 ```
 
-Où le tableau `days` représente chacun des jours de la semaine et où chaque jour possède des heures d'ouverture (`timeSlots`) 
-avec leur liste d'employés cédulés (vide pour le moment).
+Et le frontend s'attend à ce que votre API retourne une réponse avec la structure suivante:
 
-Une base de code a été mise en place, vous devez la mettre dans votre dépot, et y effectuer des amélioration avec quelques contraintes. 
+```
+201 CREATED
+
+Location: /listings/<id>
+```
+
+Où `201 Created` est le status de la réponse, `Location` est un [header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
+et `<id>` représente le numéro de l'offre pouvant (plus tard) être réutilisé pour afficher les détails de l'offre.
+
+Une base de code a été mise en place. Vous devez la mettre dans votre dépot et y effectuer des amélioration avec quelques contraintes.
 Vous pouvez aussi partir de zéro avec le language de votre choix (après l'approbation du chargé de laboratoire).
 
 #### Conditions de succès
@@ -111,8 +97,10 @@ Un nouveau développeur joint votre équipe et devrait être en mesure de s'int�
 
 ## Remise
 
-- Répertoire git dans github avec `tag` `remise-1` positionné sur le bon commit,
-    le tag doit avoir été créé et synchronisé avant la date limite. N'oubliez pas de pusher le tag pour qu'il ne se retrouve pas uniquement en local.
+- Répertoire git dans github avec `tag` `remise-1` (pas `remise1`, `Remise1`, ...) positionné sur le bon commit,
+    le tag doit avoir été créé et synchronisé avant la date limite et correctement nommé. Sans quoi, la note de 0 sera
+    attributé pour l'évaluation du projet.
+    N'oubliez pas de pusher le tag pour qu'il ne se retrouve pas uniquement en local.
 - Fichier README avec instructions (la section "CONTRIBUTING" peut être dans
     le même fichier ou externe mais ça doit être spécifié dans le README)
 - Autre document ou Wiki avec les questions sur `git`
@@ -123,7 +111,7 @@ Un nouveau développeur joint votre équipe et devrait être en mesure de s'int�
 
 ## Évaluation
 
-Le laboratoire vaut 8% de la session, les notes seront distribuées comme suit:
+Le laboratoire vaut 9% de la session, les notes seront distribuées comme suit:
 
 - 40% Projet
   - Nouvelles fonctionnalités (à détailler)

@@ -43,7 +43,7 @@ Sur approbation de l'auxiliaire de laboratoire, vous pouvez également utiliser 
 ## Front end
 
 Un front end est fourni pour que vous puissiez vous concentrer sur le backend. 
-Il est disponible dans le dépôt suivant: [H18-Frontend](https://github.com/glo2003/h19-frontend).
+Il est disponible dans le dépôt suivant: [officiel-projet-h19](https://github.com/glo2003/officiel-projet-h19).
 
 Il est à noter que le code du client sera mis-à-jour tout au long de la session, que ce soit pour ajouter des nouvelles
 fonctionnalités pour les prochains livrables ou encore suite à vos _pull requests_ pour régler des bugs. De plus, vous pouvez
