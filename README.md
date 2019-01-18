@@ -7,20 +7,23 @@
 - [TP3 - Automatisation de tâches variées (déploiement en continue) et métriques associées au logiciel](tp3/README.md)
 - [TP4 - Sprint, agilité](tp4/README.md)
 
-## Le projet - Otto - Schedule all the things!
+## Le projet - Sharie - Échange de services et des biens!
 
-Otto, le gérant d'un petit restaurant, commence à être tanné de devoir planifier les heures de travail de son équipe dans un vieux fichier Excel. 
-Il a entendu parlé de cette nouvelle affaire, l'Internet, et il aimerait se mettre à l'utiliser pour faciliter la gestion des horaires.
+Vous êtes un-e jeune étudiant-e en informatique et vous vivez dans un petit quartier où l'esprit communautaire est mis de l'avant.
+En discutant avec vos voisins, vous vous rendez compte qu'ils possèdent divers électroménagers, comme une laveuse et une
+sécheuse, et qu'ils ne s'en servent pas toujours alors que vous vous n'en avez pas. Vous leur demandez donc s'il serait
+possible de les utiliser 1 fois par semaine, en échange de votre aide pour nettoyer les virus qu'ils ont sur leur
+ordinateur.
 
-Toutefois, Otto n'est pas très bon avec la technologie. Il aurait besoin de votre équipe pour se moderniser. Grâce à vos talents et à Internet, 
-il veut pouvoir accomplir les choses suivantes:
+Vos voisins trouvent l'idée intéressante et se mettent à faire ce genre d'échanges avec d'autres habitants du quartier. Cela
+devient tellement populaire qu'ils vous demandent de faire une petite application pour faciliter l'échange de biens et
+de services dans le quartier pour tout le monde. Ils veulent pouvoir effectuer les choses suivantes:
 
-- Définir les heures d'ouverture de son restaurant à chaque jour
-- Gérer les membres de son équipe de travail
-- Céduler les employés pour travailler durant les heures d'ouverture
-- Gérer les disponbilités de chacun des membres de son équipe de travail
-- Empêcher de céduler un employé qui n'est pas disponible pour une certaine plage horaire
-- Notifier par e-mail chacun des employés lorsque l'horaire d'une semaine est complété
+- Ajouter des nouveaux services ou biens à échanger
+- Consulter la liste des services ou biens à échanger
+- Réserver un service ou un bien pour une ou plusieurs journées
+- Annuler une réservation d'un service ou un bien
+- Notifier l'annonceur qu'une réservation a été faite
 - Etc.
 
 Les items suivant proposent une liste non exhaustive de ce qui peut être réalisé dans le cadre du projet. 
@@ -40,7 +43,7 @@ Sur approbation de l'auxiliaire de laboratoire, vous pouvez également utiliser 
 ## Front end
 
 Un front end est fourni pour que vous puissiez vous concentrer sur le backend. 
-Il est disponible dans le dépôt suivant: [H18-Frontend](https://github.com/glo2003/h18-frontend).
+Il est disponible dans le dépôt suivant: [H18-Frontend](https://github.com/glo2003/h19-frontend).
 
 Il est à noter que le code du client sera mis-à-jour tout au long de la session, que ce soit pour ajouter des nouvelles
 fonctionnalités pour les prochains livrables ou encore suite à vos _pull requests_ pour régler des bugs. De plus, vous pouvez
