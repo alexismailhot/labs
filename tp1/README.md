@@ -22,7 +22,8 @@ POST /listings
   "title": ""::string,
   "owner": {
     "name": ""::string,
-    "phoneNumber": ""::string
+    "phoneNumber": ""::string,
+    "email": ""::string
   },
   "description": ""::string,
 }
